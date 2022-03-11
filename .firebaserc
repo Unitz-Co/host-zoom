@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "unitz-app"
+  },
+  "targets": {
+    "unitz-app": {
+      "hosting": {
+        "unitz-zoom": [
+          "unitz-zoom"
+        ],
+        "dev-unitz-zoom": [
+          "dev-unitz-zoom"
+        ]
+      }
+    }
+  }
+}

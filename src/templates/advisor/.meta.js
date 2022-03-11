@@ -1,0 +1,85 @@
+const path = require('path');
+const _ = require('lodash');
+const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
+const { withLocale } = require('@uz/mod-translations/utils');
+
+require('@vl/mod-config/web');
+
+const hasuraClient = require('@vl/mod-clients/hasuraCtf');
+
+const getAllAdvisors = async () => {
+  const query = hasuraClient.gql`
+    query advisor {
+      advisor (where: {profile: {is_active: {_eq: true}, is_published: {_eq: true}}}) {
+        id
+        profile {
+          id
+          ref_ctf_eid
+        }
+      }
+    }
+  `;
+  try {
+    const rtn = await hasuraClient.getClient().request(query);
+
+    const data = _.get(rtn, 'advisor', []);
+    return data;
+  } catch (err) {
+    console.log(err);
+  }
+  return [];
+};
+
+exports.createPages = withLocale(async function(item, gatsby) {
+  const localeConfig = this;
+  // @update query
+  const allNodes = await gatsby.graphql(`
+  query advisorQuery {
+    allContentfulAdvisorProfile {
+      nodes {
+        id: contentful_id
+        displayName
+        avatarUrl {
+          fixed {
+            src
+          }
+        }
+        email
+        slug
+      }
+    }
+  }`);
+  const advisors = await getAllAdvisors();
+  const advisorProfiles = _.get(allNodes, 'data.allContentfulAdvisorProfile.nodes', []);
+  const advisorProfilesMapByProfileId = _.keyBy(advisorProfiles, 'id');
+
+  return Promise.all(
+    advisors.map((advisorData) => {
+      const profileId = _.get(advisorData, 'profile.ref_ctf_eid');
+      const advisor = {
+        ...advisorData,
+        profile: {
+          ...advisorData.profile,
+          ..._.get(advisorProfilesMapByProfileId, profileId),
+        },
+      };
+
+      const advisorSlug = routeStore.toUrl('advisor', advisor);
+      const advisorPath = localeConfig.langSlug(path.join('/', advisorSlug));
+      console.log('creating page', advisorPath);
+      const pageContext = _.cloneDeep({
+        id: _.get(advisor, 'id', 'id'),
+        slug: advisorSlug,
+        lang: localeConfig.get('lang'),
+        params: {
+          ...advisor,
+        },
+      });
+      return gatsby.actions.createPage({
+        path: advisorPath,
+        component: item.resolvers.component(gatsby),
+        context: pageContext,
+      });
+    })
+  );
+});
