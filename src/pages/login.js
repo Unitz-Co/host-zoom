@@ -3,9 +3,9 @@ import React from 'react';
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
 
-import LoginPage from '@uz/unitz-pages/LoginPage';
+import LoginPage from '@uz/unitz-tool-pages/LoginPage';
 
-import App from '@uz/unitz-app-web/UserApp';
+import App from '@uz/unitz-app-web/ToolApp';
 import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutMain';
