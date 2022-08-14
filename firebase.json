@@ -9,6 +9,10 @@
       },
       "rewrites": [
         {
+          "source": "/zoom_oauth",
+          "function": "triggers-tool-zoomOAuth"
+        },
+        {
           "source": "/courses/*",
           "function": "seo-course"
         },
