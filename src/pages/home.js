@@ -16,6 +16,11 @@ const HomeIndex = () => {
   return (
     <div className="px-2">
       <a href="/zoom_install">Install Zoom App</a>
+      <a
+        href={`https://zoom.us/oauth/authorize?response_type=code&client_id=pGEImldqTKi7EUaRC0FBhQ&redirect_uri=https%3A%2F%2Funitz-zoom.web.app%2Fzoom_oauth`}
+      >
+        Click to install
+      </a>
     </div>
   );
 };
