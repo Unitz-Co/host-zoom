@@ -12,6 +12,7 @@ import withPageContext from '@uz/unitz-pages/withPageContext';
 import useRoute from '@vl/hooks/useGbRoute';
 import PageData from '../../data/PageDataQuery';
 import FacebookMessenger from '@uz/unitz-components-web/FacebookMessenger';
+
 export const component = withPageContext((props) => {
   const pageContext = useRoute().getPageContext();
   return (
