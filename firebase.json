@@ -4,9 +4,6 @@
       "target": "unitz-zoom",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "i18n": {
-        "root": "/"
-      },
       "rewrites": [
         {
           "source": "/zoom_oauth",
@@ -390,9 +387,6 @@
       "target": "dev-unitz-zoom",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "i18n": {
-        "root": "/"
-      },
       "rewrites": [
         {
           "source": "/zoom_oauth",
