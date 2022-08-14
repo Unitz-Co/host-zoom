@@ -125,6 +125,7 @@
     "firebase:deploy": "firebase deploy --only hosting:unitz-zoom",
     "build:trigger": "../../../config/ws-scripts/cicd/trigger.sh",
     "firebase:deploy:dev": "firebase deploy --only hosting:dev-unitz-zoom",
+    "unitzapp:deploy": "firebase deploy --only hosting:unitz-zoom",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
     "serve:fib": "firebase emulators:start",
