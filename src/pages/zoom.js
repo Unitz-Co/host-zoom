@@ -13,7 +13,7 @@ import SEO from '@uz/unitz-layout-web/SEO';
 import PageData from '../data/PageDataQuery';
 
 const HomeIndex = withPageContext((props) => {
-  return <div>Unitz Zoom App</div>;
+  return <div style={{ color: 'red', fontSize: '32px' }}>Unitz Zoom App</div>;
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
