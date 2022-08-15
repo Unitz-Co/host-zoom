@@ -4,10 +4,15 @@
       "target": "unitz-zoom",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "i18n": {
-        "root": "/"
-      },
       "rewrites": [
+        {
+          "source": "/zoom_oauth",
+          "function": "triggers-tool-zoomOAuth"
+        },
+        {
+          "source": "/zoom_install",
+          "function": "triggers-tool-zoomInstall"
+        },
         {
           "source": "/courses/*",
           "function": "seo-course"
@@ -382,10 +387,15 @@
       "target": "dev-unitz-zoom",
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "i18n": {
-        "root": "/"
-      },
       "rewrites": [
+        {
+          "source": "/zoom_oauth",
+          "function": "triggers-tool-zoomOAuth"
+        },
+        {
+          "source": "/zoom_install",
+          "function": "triggers-tool-zoomInstall"
+        },
         {
           "source": "/courses/*",
           "function": "seo-course"

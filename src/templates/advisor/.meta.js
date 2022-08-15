@@ -31,6 +31,7 @@ const getAllAdvisors = async () => {
 };
 
 exports.createPages = withLocale(async function(item, gatsby) {
+  return [];
   const localeConfig = this;
   // @update query
   const allNodes = await gatsby.graphql(`
