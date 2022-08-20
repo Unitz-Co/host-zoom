@@ -112,222 +112,6 @@
       ],
       "headers": [
         {
-          "source": "/courses/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/en/courses/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/vi/courses/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/courses/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/en/courses/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/vi/courses/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/voicecalls/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/en/voicecalls/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/vi/voicecalls/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/voicecalls/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/en/voicecalls/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/vi/voicecalls/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/videocalls/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/en/videocalls/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/vi/videocalls/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/videocalls/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/en/videocalls/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/vi/videocalls/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/search-courses/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/en/search-courses/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/vi/search-courses/*",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/search-courses/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/en/search-courses/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
-          "source": "/page-data/vi/search-courses/*/page-data.json",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=2628000"
-            }
-          ]
-        },
-        {
           "source": "**",
           "headers": [
             {
@@ -342,6 +126,59 @@
             {
               "key": "cache-control",
               "value": "public, max-age=0, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "zoom/**",
+          "headers": [
+            {
+              "key": "cache-control",
+              "value": "public, max-age=31536000, immutable"
+            },
+            {
+              "key": "cross-origin-opener-policy",
+              "value": "same-origin"
+            },
+            {
+              "key": "cross-origin-resource-policy",
+              "value": "same-origin"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-dns-prefetch-control",
+              "value": "off"
+            },
+            {
+              "key": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "Content-Security-Policy",
+              "value": "default-src 'self' https://unitz-zoom.web.app;style-src 'self' 'unsafe-inline' https://unitz-zoom.web.app https://cdn.jsdelivr.net https://unitz-css.web.app https://fonts.googleapis.com;script-src 'self' 'unsafe-inline' https://appssdk.zoom.us/sdk.min.js https://unitz-app-default-rtdb.firebaseio.com https://s-usc1b-nss-2156.firebaseio.com https://js.stripe.com;img-src 'self' https://unitz-zoom.web.app https://images.ctfassets.net https://unitz-asset.web.app https://ui-avatars.com https://lh3.googleusercontent.com;connect-src 'self' https://unitz-zoom.web.app https://www.googleapis.com https://us-central1-unitz-app.cloudfunctions.net https://s-usc1b-nss-2156.firebaseio.com wss://s-usc1b-nss-2156.firebaseio.com https://advisor.unitz.dev wss://advisor.unitz.dev https://advisor.api.unitz.app wss://advisor.api.unitz.app;frame-src 'self' https://unitz-zoom.web.app https://s-usc1b-nss-2156.firebaseio.com https://js.stripe.com;base-uri 'self' https://unitz-zoom.web.app;form-action 'self' https://unitz-zoom.web.app;block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests"
             }
           ]
         },

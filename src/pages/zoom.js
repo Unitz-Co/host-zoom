@@ -3,17 +3,17 @@ import React from 'react';
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
 
-import HomePage from '@uz/unitz-pages/CFHomeLandingPage';
+import HomePage from '@uz/unitz-pages/CFHomeZoomPage';
 import withPageContext from '@uz/unitz-pages/withPageContext';
 import App from '@uz/unitz-app-web/ToolApp';
 
-import Layout from '@uz/unitz-layout-web/LayoutMain';
+import Layout from '@uz/unitz-layout-web/LayoutZoom';
 import SEO from '@uz/unitz-layout-web/SEO';
 
 import PageData from '../data/PageDataQuery';
+import '../styles/styles.css';
 
-const HomeIndex = withPageContext((props) => {
-  return <div style={{ color: 'red', fontSize: '32px' }}>Unitz Zoom App</div>;
+const ZoomIndex = withPageContext((props) => {
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
@@ -21,6 +21,13 @@ const HomeIndex = withPageContext((props) => {
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'HomePageLanding' })} />
           <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'articleNavbarSection' })}</Layout.POS>
           <Layout.POS name="app-body">
+            <div className="px-2">
+              <a
+                href={`https://zoom.us/oauth/authorize?response_type=code&client_id=pGEImldqTKi7EUaRC0FBhQ&redirect_uri=https%3A%2F%2Funitz-zoom.web.app%2Fzoom_oauth`}
+              >
+                Click to install zoom
+              </a>
+            </div>
             <HomePage />
           </Layout.POS>
           <Layout.POS name="app-footer">{ctx.apply('ctf.renderSection', { name: 'FooterSection' })}</Layout.POS>
@@ -30,4 +37,4 @@ const HomeIndex = withPageContext((props) => {
   );
 });
 
-export default HomeIndex;
+export default ZoomIndex;

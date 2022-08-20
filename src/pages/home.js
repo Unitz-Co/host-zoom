@@ -11,6 +11,7 @@ import Layout from '@uz/unitz-layout-web/LayoutZoom';
 import SEO from '@uz/unitz-layout-web/SEO';
 
 import PageData from '../data/PageDataQuery';
+import '../styles/styles.css';
 
 const HomeIndex = withPageContext((props) => {
   return (
