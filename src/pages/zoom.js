@@ -9,6 +9,7 @@ import App from '@uz/unitz-app-web/ToolApp';
 
 import Layout from '@uz/unitz-layout-web/LayoutZoom';
 import SEO from '@uz/unitz-layout-web/SEO';
+import { Button } from '@uz/unitz-components-web/Button';
 
 import PageData from '../data/PageDataQuery';
 import '../styles/styles.css';
@@ -27,6 +28,16 @@ const ZoomIndex = withPageContext((props) => {
               >
                 Click to install zoom
               </a>
+              <Button
+                className="mx-2"
+                type="primary"
+                size="small"
+                onClick={() => {
+                  window.location.href = `https://us06web.zoom.us/j/7124174735?pwd=dWFvS1NxN1ZpWUxjbm41REk2c0NSZz09`;
+                }}
+              >
+                Join meeting
+              </Button>
             </div>
             <HomePage />
           </Layout.POS>
