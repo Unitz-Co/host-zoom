@@ -82,6 +82,7 @@
     "react-svg": "^14.0.2",
     "react-sweet-progress": "^1.1.2",
     "react-tabs": "^3.1.0",
+    "react-pdf" : "^5.7.2",
     "react-quill": "^2.0.0-beta.4",
     "quill-emoji": "^0.2.0",
     "quill-delta-to-html": "^0.12.0",
