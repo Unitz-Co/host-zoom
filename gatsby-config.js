@@ -98,64 +98,64 @@ const gbConfig = gatsbyMergeConfig(
           },
         },
       },
-      {
-        resolve: 'gatsby-plugin-google-tagmanager',
-        options: {
-          id: 'GTM-PDLSWHG',
+      // {
+      //   resolve: 'gatsby-plugin-google-tagmanager',
+      //   options: {
+      //     id: 'GTM-PDLSWHG',
 
-          // Include GTM in development.
-          //
-          // Defaults to false meaning GTM will only be loaded in production.
-          includeInDevelopment: true,
+      //     // Include GTM in development.
+      //     //
+      //     // Defaults to false meaning GTM will only be loaded in production.
+      //     includeInDevelopment: true,
 
-          // datalayer to be set before GTM is loaded
-          // should be an object or a function that is executed in the browser
-          //
-          // Defaults to null
-          defaultDataLayer: { platform: 'gatsby' },
+      //     // datalayer to be set before GTM is loaded
+      //     // should be an object or a function that is executed in the browser
+      //     //
+      //     // Defaults to null
+      //     defaultDataLayer: { platform: 'gatsby' },
 
-          // Specify optional GTM environment details.
-          // gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING',
-          // gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME',
-          // dataLayerName: 'YOUR_DATA_LAYER_NAME',
+      //     // Specify optional GTM environment details.
+      //     // gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING',
+      //     // gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME',
+      //     // dataLayerName: 'YOUR_DATA_LAYER_NAME',
 
-          // Name of the event that is triggered
-          // on every Gatsby route change.
-          //
-          // Defaults to gatsby-route-change
-          routeChangeEventName: 'routeChange',
-          // Defaults to false
-          enableWebVitalsTracking: true,
-          // Defaults to https://www.googletagmanager.com
-          // selfHostedOrigin: 'https://unitz.app',
-        },
-      },
-      {
-        resolve: 'gatsby-plugin-amplitude-analytics',
-        options: {
-          // Specify the API key for your Amplitude Project (required)
-          apiKey: process.env.AMPLITUDE_API_KEY,
-          // Puts tracking script in the head instead of the body (optional)
-          head: false,
-          // Prevents loading Amplitude and logging events if visitors have "Do Not Track" enabled (optional)
-          respectDNT: true,
-          // Avoids sending pageview hits from custom paths (optional)
-          exclude: [],
-          // Override the default event types (optional)
-          eventTypes: {
-            outboundLinkClick: 'OUTBOUND_LINK_CLICK',
-            pageView: 'PAGE_VIEW',
-          },
-          // Amplitude JS SDK configuration options (optional)
-          amplitudeConfig: {
-            saveEvents: true,
-            includeUtm: true,
-            includeReferrer: true,
-          },
-          // Specify NODE_ENVs in which the plugin should be loaded (optional)
-          environments: ['production'],
-        },
-      },
+      //     // Name of the event that is triggered
+      //     // on every Gatsby route change.
+      //     //
+      //     // Defaults to gatsby-route-change
+      //     routeChangeEventName: 'routeChange',
+      //     // Defaults to false
+      //     enableWebVitalsTracking: true,
+      //     // Defaults to https://www.googletagmanager.com
+      //     // selfHostedOrigin: 'https://unitz.app',
+      //   },
+      // },
+      // {
+      //   resolve: 'gatsby-plugin-amplitude-analytics',
+      //   options: {
+      //     // Specify the API key for your Amplitude Project (required)
+      //     apiKey: process.env.AMPLITUDE_API_KEY,
+      //     // Puts tracking script in the head instead of the body (optional)
+      //     head: false,
+      //     // Prevents loading Amplitude and logging events if visitors have "Do Not Track" enabled (optional)
+      //     respectDNT: true,
+      //     // Avoids sending pageview hits from custom paths (optional)
+      //     exclude: [],
+      //     // Override the default event types (optional)
+      //     eventTypes: {
+      //       outboundLinkClick: 'OUTBOUND_LINK_CLICK',
+      //       pageView: 'PAGE_VIEW',
+      //     },
+      //     // Amplitude JS SDK configuration options (optional)
+      //     amplitudeConfig: {
+      //       saveEvents: true,
+      //       includeUtm: true,
+      //       includeReferrer: true,
+      //     },
+      //     // Specify NODE_ENVs in which the plugin should be loaded (optional)
+      //     environments: ['production'],
+      //   },
+      // },
       {
         resolve: 'gatsby-plugin-import',
         options: {
