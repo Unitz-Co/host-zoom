@@ -8,11 +8,11 @@ import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutZoomToolMenu';
 import withPageContext from '@uz/unitz-pages/withPageContext';
-import HomePage from '@uz/unitz-tool-pages/CourseTemplateUse';
+import HomePage from '@uz/unitz-tool-pages/CourseTemplateEdit';
 
 import PageData from '../../../../data/PageDataQuery';
 
-const CourseTemplatesUsingIdx = withPageContext((props) => {
+const CourseTemplateEditIdx = withPageContext((props) => {
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
@@ -28,4 +28,4 @@ const CourseTemplatesUsingIdx = withPageContext((props) => {
   );
 });
 
-export default CourseTemplatesUsingIdx;
+export default CourseTemplateEditIdx;

@@ -21,6 +21,8 @@ routeStore.addRule('accounts', {
   },
 });
 
+// START USER MANAGEMENT
+
 routeStore.addRule('accountMember', {
   url: () => {
     return `/accounts/me/members`;
@@ -36,6 +38,10 @@ routeStore.addRule('accountMember', {
     return urlObject.pathname === 'accounts/me/members';
   },
 });
+
+// END USER MANAGEMENT
+
+// START COURSE TEMPLATE MANAGEMENT
 
 routeStore.addRule('courseTemplate', {
   url: () => {
@@ -86,10 +92,10 @@ routeStore.addRule('courseTemplateCreated', {
   },
 });
 
-routeStore.addRule('useCourseTemplate', {
+routeStore.addRule('courseTemplateDetail', {
   url: (params) => {
     const id = _.get(params, 'id', 'unknown');
-    return `/accounts/me/course-template/use?id=${id}`;
+    return `/accounts/me/course-template/detail?id=${id}`;
   },
   parse: (urlObject) => {
     const params = {};
@@ -99,6 +105,46 @@ routeStore.addRule('useCourseTemplate', {
     return params;
   },
   match: (urlObject) => {
-    return urlObject.pathname === 'accounts/me/course-template/use';
+    return urlObject.pathname === 'accounts/me/course-template/detail';
   },
 });
+
+routeStore.addRule('courseTemplateEdit', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts/me/course-template/edit?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/course-template/edit';
+  },
+});
+
+// END COURSE TEMPLATE MANAGEMENT
+
+// START COURSE MANAGEMENT
+
+routeStore.addRule('useCourseTemplate', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts/me/course/use-template?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/course/use-template';
+  },
+});
+
+// END COURSE MANAGEMENT
