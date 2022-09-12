@@ -164,6 +164,38 @@ routeStore.addRule('courseTemplateEdit', {
 
 // START COURSE MANAGEMENT
 
+routeStore.addRule('courses', {
+  url: () => {
+    return `/accounts/me/course`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/course';
+  },
+});
+
+routeStore.addRule('courseUseTemplates', {
+  url: () => {
+    return `/accounts/me/course/use-templates`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/course/use-templates';
+  },
+});
+
 routeStore.addRule('useCourseTemplate', {
   url: (params) => {
     const id = _.get(params, 'id', 'unknown');
@@ -178,6 +210,22 @@ routeStore.addRule('useCourseTemplate', {
   },
   match: (urlObject) => {
     return urlObject.pathname === 'accounts/me/course/use-template';
+  },
+});
+
+routeStore.addRule('createCourse', {
+  url: () => {
+    return `/accounts/me/course/create`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/course/create';
   },
 });
 
