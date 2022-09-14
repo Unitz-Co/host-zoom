@@ -23,7 +23,7 @@ routeStore.addRule('accounts', {
 
 // START USER MANAGEMENT
 
-routeStore.addRule('accountMember', {
+routeStore.addRule('accountMembers', {
   url: () => {
     return `/accounts/me/members`;
   },
@@ -43,7 +43,7 @@ routeStore.addRule('accountMember', {
 
 // START PROGRAM TEMPLATE MANAGEMENT
 
-routeStore.addRule('programTemplate', {
+routeStore.addRule('programTemplates', {
   url: () => {
     return `/accounts/me/program-template`;
   },
@@ -77,7 +77,7 @@ routeStore.addRule('createProgramTemplate', {
 
 // START COURSE TEMPLATE MANAGEMENT
 
-routeStore.addRule('courseTemplate', {
+routeStore.addRule('courseTemplates', {
   url: () => {
     return `/accounts/me/course-template`;
   },
@@ -230,3 +230,77 @@ routeStore.addRule('createCourse', {
 });
 
 // END COURSE MANAGEMENT
+
+// Start Teacher
+
+routeStore.addRule('teachers', {
+  url: () => {
+    return `/accounts/me/teacher`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/teacher';
+  },
+});
+
+routeStore.addRule('teacherReport', {
+  url: (params) => {
+    const id = _.get(params, 'user_id', 'unknown');
+    return `/accounts/me/teacher/report?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/teacher/report';
+  },
+});
+
+// End Teacher
+
+// Start student
+
+routeStore.addRule('students', {
+  url: () => {
+    return `/accounts/me/student`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/student';
+  },
+});
+
+routeStore.addRule('studentReport', {
+  url: (params) => {
+    const id = _.get(params, 'user_id', 'unknown');
+    return `/accounts/me/student/report?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/student/report';
+  },
+});
+
+// End student
