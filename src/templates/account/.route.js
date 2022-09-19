@@ -21,6 +21,70 @@ routeStore.addRule('accounts', {
   },
 });
 
+routeStore.addRule('userNotification', {
+  url: () => {
+    return `/accounts/me/notifications`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/notifications';
+  },
+});
+
+routeStore.addRule('userCalendar', {
+  url: () => {
+    return `/accounts/me/calendar`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/calendar';
+  },
+});
+
+routeStore.addRule('myAccount', {
+  url: () => {
+    return `/accounts/me/my-account`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/my-account';
+  },
+});
+
+routeStore.addRule('userSetting', {
+  url: () => {
+    return `/accounts/me/settings`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/settings';
+  },
+});
+
 // START USER MANAGEMENT
 
 routeStore.addRule('accountMembers', {
@@ -40,6 +104,22 @@ routeStore.addRule('accountMembers', {
 });
 
 // END USER MANAGEMENT
+
+routeStore.addRule('programs', {
+  url: () => {
+    return `/accounts/me/program`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/program';
+  },
+});
 
 // START PROGRAM TEMPLATE MANAGEMENT
 
