@@ -155,6 +155,40 @@ routeStore.addRule('createProgramTemplate', {
   },
 });
 
+routeStore.addRule('programTemplateCreated', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts/me/program-template/created?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/program-template/created';
+  },
+});
+
+routeStore.addRule('programTemplateDetail', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts/me/program-template/detail?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/program-template/detail';
+  },
+});
+
 // START COURSE TEMPLATE MANAGEMENT
 
 routeStore.addRule('courseTemplates', {
