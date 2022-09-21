@@ -189,6 +189,23 @@ routeStore.addRule('programTemplateDetail', {
   },
 });
 
+routeStore.addRule('programTemplateEdit', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts/me/program-template/edit?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/program-template/edit';
+  },
+});
+
 // START COURSE TEMPLATE MANAGEMENT
 
 routeStore.addRule('courseTemplates', {
