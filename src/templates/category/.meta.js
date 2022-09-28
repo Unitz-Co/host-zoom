@@ -4,6 +4,7 @@ const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { withLocale } = require('@uz/mod-translations/utils');
 
 exports.createPages = withLocale(async function(item, gatsby) {
+  return [];
   const localeConfig = this;
   // @update query
   const allNodes = await gatsby.graphql(`
@@ -43,7 +44,6 @@ exports.createPages = withLocale(async function(item, gatsby) {
   }`);
 
   const categories = _.get(allNodes, 'data.allContentfulCategory.nodes', []);
-
   return Promise.all(
     categories.map((cat) => {
       const catSlug = routeStore.toUrl('category', cat);
