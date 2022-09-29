@@ -8,7 +8,7 @@ import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutZoomToolMenu';
 import withPageContext from '@uz/unitz-pages/withPageContext';
-import HomePage from '@uz/unitz-tool-pages/Home';
+import HomePage from '@uz/unitz-tool-pages/Dashboard';
 
 import PageData from '../../../data/PageDataQuery';
 
