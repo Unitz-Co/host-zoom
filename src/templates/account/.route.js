@@ -327,6 +327,39 @@ routeStore.addRule('courseUseTemplates', {
   },
 });
 
+routeStore.addRule('toolAccountDetail', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts';
+  },
+});
+
+routeStore.addRule('toolAccountCreate', {
+  url: () => {
+    return `/accounts/create`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/create';
+  },
+});
+
 routeStore.addRule('toolCourseDetail', {
   url: (params) => {
     const id = _.get(params, 'id', 'unknown');
