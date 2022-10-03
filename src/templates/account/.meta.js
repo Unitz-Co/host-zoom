@@ -3,27 +3,66 @@ const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { withLocale } = require('@uz/mod-translations/utils');
 
+require('@vl/mod-config/builder');
+require('@vl/mod-config/web').loadEnv();
+
+const hasuraClient = require('@vl/mod-clients/hasuraCtf');
+
+const getAllAccounts = async () => {
+  const query = hasuraClient.gql`
+    query account {
+      account: b2b_account {
+        id
+        slug
+        account_profile {
+          id
+          display_name
+        }
+      }
+    }
+  `;
+  try {
+    const rtn = await hasuraClient.getClient().request(query);
+
+    const data = _.get(rtn, 'account', []);
+    return data;
+  } catch (err) {
+    console.log(err);
+  }
+  return [];
+};
+
 exports.createPages = withLocale(async function(item, gatsby) {
+  // return [];
   const localeConfig = this;
+  const accounts = await getAllAccounts();
 
-  // return Promise.all(
-  //   categories.map((cat) => {
-  //     const catSlug = routeStore.toUrl('category', cat);
-  //     const catPath = localeConfig.langSlug(path.join('/', catSlug));
-  //     console.log('creating page', catPath);
+  return Promise.all(
+    accounts.map((accountData) => {
+      const accountId = _.get(accountData, 'id');
+      const account = {
+        ...accountData,
+        profile: {
+          ...accountData.account_profile,
+        },
+      };
 
-  //     return gatsby.actions.createPage({
-  //       path: catPath,
-  //       component: item.resolvers.component(gatsby),
-  //       context: _.cloneDeep({
-  //         id: _.get(cat, 'id', 'id'),
-  //         slug: catSlug,
-  //         lang: localeConfig.get('lang'),
-  //         params: {
-  //           ...cat,
-  //         },
-  //       }),
-  //     });
-  //   })
-  // );
+      const accountSlug = routeStore.toUrl('toolAccount', account);
+      const accountPath = localeConfig.langSlug(path.join('/', accountSlug));
+      console.log('creating page', accountPath);
+      const pageContext = _.cloneDeep({
+        id: accountId,
+        slug: accountSlug,
+        lang: localeConfig.get('lang'),
+        params: {
+          ...account,
+        },
+      });
+      return gatsby.actions.createPage({
+        path: accountPath,
+        component: item.resolvers.component(gatsby),
+        context: pageContext,
+      });
+    })
+  );
 });
