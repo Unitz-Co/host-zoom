@@ -8,17 +8,17 @@ import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutZoomToolMenu';
 import withPageContext from '@uz/unitz-pages/withPageContext';
-import HomePage from '@uz/unitz-tool-pages/Programs';
+import HomePage from '@uz/unitz-tool-pages/RoomSession';
 
 import PageData from '../../../../data/PageDataQuery';
 
-const ProgramsIdx = withPageContext((props) => {
+const RoomIdx = withPageContext((props) => {
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'Homepage' })} />
-          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS>
+          {/* <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS> */}
           <Layout.POS name="app-body">
             <HomePage />
           </Layout.POS>
@@ -28,4 +28,4 @@ const ProgramsIdx = withPageContext((props) => {
   );
 });
 
-export default ProgramsIdx;
+export default RoomIdx;
