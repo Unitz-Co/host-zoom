@@ -17,6 +17,7 @@ const getAllAccounts = async () => {
         account_profile {
           id
           display_name
+          avatar_url
         }
       }
     }
@@ -42,6 +43,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
       const accountId = _.get(accountData, 'id');
       const account = {
         ...accountData,
+        accountId,
         profile: {
           ...accountData.account_profile,
         },
@@ -52,6 +54,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
       console.log('creating page', accountPath);
       const pageContext = _.cloneDeep({
         id: accountId,
+        accountId,
         slug: accountSlug,
         lang: localeConfig.get('lang'),
         params: {

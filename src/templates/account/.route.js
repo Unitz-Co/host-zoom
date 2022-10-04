@@ -330,6 +330,10 @@ routeStore.addRule('courseUseTemplates', {
 routeStore.addRule('toolAccountDetail', {
   url: (params) => {
     const id = _.get(params, 'id', 'unknown');
+    const slug = _.get(params, 'slug');
+    if(slug) {
+      return `/${slug}`;
+    }
     return `/accounts?id=${id}`;
   },
   parse: (urlObject) => {
