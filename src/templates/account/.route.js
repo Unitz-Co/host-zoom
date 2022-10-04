@@ -546,24 +546,6 @@ routeStore.addRule('courseCreated', {
 
 // Course
 
-// Teacher
-
-routeStore.addRule('teachers', {
-  url: () => {
-    return `/accounts/me/teacher`;
-  },
-  parse: (urlObject) => {
-    const params = {};
-    for (let param in urlObject.searchParams) {
-      params[param] = urlObject.searchParams.get(param);
-    }
-    return params;
-  },
-  match: (urlObject) => {
-    return urlObject.pathname === 'accounts/me/teacher';
-  },
-});
-
 routeStore.addRule('teacherReport', {
   url: (params) => {
     const id = _.get(params, 'user_id', 'unknown');
@@ -584,22 +566,6 @@ routeStore.addRule('teacherReport', {
 // Teacher
 
 // Student
-
-routeStore.addRule('students', {
-  url: () => {
-    return `/accounts/me/student`;
-  },
-  parse: (urlObject) => {
-    const params = {};
-    for (let param in urlObject.searchParams) {
-      params[param] = urlObject.searchParams.get(param);
-    }
-    return params;
-  },
-  match: (urlObject) => {
-    return urlObject.pathname === 'accounts/me/student';
-  },
-});
 
 routeStore.addRule('studentReport', {
   url: (params) => {
