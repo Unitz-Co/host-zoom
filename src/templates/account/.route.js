@@ -44,7 +44,7 @@ routeStore.addRule('toolAccount', {
   url: (params) => {
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
-    if(slug) {
+    if (slug) {
       return `/${slug}`;
     }
     return `/account?id=${id}`;
@@ -451,6 +451,23 @@ routeStore.addRule('createCourse', {
   },
   match: (urlObject) => {
     return urlObject.pathname === 'accounts/me/course/create';
+  },
+});
+
+routeStore.addRule('toolCourseEdit', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts/me/course/edit?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/me/course/edit';
   },
 });
 
