@@ -21,6 +21,64 @@ routeStore.addRule('accounts', {
   },
 });
 
+// Account
+
+routeStore.addRule('toolAccountDetail', {
+  url: (params) => {
+    const id = _.get(params, 'id', 'unknown');
+    return `/accounts?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts';
+  },
+});
+
+routeStore.addRule('toolAccount', {
+  url: (params) => {
+    const id = _.get(params, 'id');
+    const slug = _.get(params, 'slug');
+    if(slug) {
+      return `/${slug}`;
+    }
+    return `/account?id=${id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'account';
+  },
+});
+
+routeStore.addRule('toolAccountCreate', {
+  url: () => {
+    return `/accounts/create`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === 'accounts/create';
+  },
+});
+
+// Account
+
 routeStore.addRule('userNotification', {
   url: () => {
     return `/accounts/me/notifications`;
@@ -469,9 +527,9 @@ routeStore.addRule('courseCreated', {
   },
 });
 
-// END COURSE MANAGEMENT
+// Course
 
-// Start Teacher
+// Teacher
 
 routeStore.addRule('teachers', {
   url: () => {
@@ -506,9 +564,9 @@ routeStore.addRule('teacherReport', {
   },
 });
 
-// End Teacher
+// Teacher
 
-// Start student
+// Student
 
 routeStore.addRule('students', {
   url: () => {
@@ -543,4 +601,21 @@ routeStore.addRule('studentReport', {
   },
 });
 
-// End student
+// Student
+
+// Room
+routeStore.addRule('toolRoom', {
+  url: (room) => {
+    return `/accounts/me/room?id=${room.id}`;
+  },
+  parse: (urlObject) => {
+    const params = {};
+    for (let param in urlObject.searchParams) {
+      params[param] = urlObject.searchParams.get(param);
+    }
+    return params;
+  },
+  match: (urlObject) => {
+    return urlObject.pathname === '/accounts/me/room';
+  },
+});
