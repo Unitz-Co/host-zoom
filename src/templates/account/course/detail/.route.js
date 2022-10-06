@@ -1,8 +1,6 @@
 const _ = require('lodash');
-const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const useGbRoute = require('@vl/hooks/useGbRoute');
-const querystring = require('querystring');
 
 routeStore.addRule('toolAccountCourseDetail', {
   url: (params, ctx) => {
