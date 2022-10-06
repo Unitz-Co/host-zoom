@@ -49,7 +49,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
         },
       };
 
-      const accountSlug = routeStore.toUrl('toolAccountCourseDetail', account);
+      const accountSlug = routeStore.toUrl('toolAccountCourseDetail', {}, { account });
       const accountPath = localeConfig.langSlug(path.join('/', accountSlug));
       console.log('creating page', accountPath);
       const pageContext = _.cloneDeep({

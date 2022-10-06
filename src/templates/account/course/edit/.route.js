@@ -5,14 +5,14 @@ const useGbRoute = require('@vl/hooks/useGbRoute');
 const querystring = require('querystring');
 
 routeStore.addRule('toolAccountCourseEdit', {
-  url: (params) => {
-    params = _.merge({}, params, _.get(useGbRoute().getPageContext(), 'params'));
-    const id = _.get(params, 'id');
-    const slug = _.get(params, 'slug');
-    if (slug) {
-      return `/${slug}/course-edit?id=${id}`;
+  url: (params, ctx) => {
+    const accountParams = _.get(ctx, 'account') || useGbRoute().getPageContextParams();
+    const accountSlug = _.get(accountParams, 'slug');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    if (accountSlug) {
+      return `/${accountSlug}/course/edit${queryString}`;
     }
-    return `/account/course/edit?id=${id}`;
+    return `/account/course/edit${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};
@@ -22,6 +22,6 @@ routeStore.addRule('toolAccountCourseEdit', {
     return params;
   },
   match: (urlObject) => {
-    return urlObject.pathname === 'account/course/course-edit';
+    return urlObject.pathname === 'account/course/edit';
   },
 });
