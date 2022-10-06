@@ -3,18 +3,18 @@
     {
       "target": "unitz-zoom",
       "public": "public",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
       "rewrites": [
         {
-          "source": "/zoom_oauth",
-          "function": "triggers-tool-zoomOAuth"
-        },
-        {
-          "source": "/zoom_install",
-          "function": "triggers-tool-zoomInstall"
-        },
-        {
           "source": "/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/de/courses/*",
           "function": "seo-course"
         },
         {
@@ -30,6 +30,10 @@
           "function": "seo-coursePageData"
         },
         {
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
+        },
+        {
           "source": "/page-data/en/courses/*/page-data.json",
           "function": "seo-coursePageData"
         },
@@ -38,32 +42,12 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/voicecalls/*",
-          "function": "seo-voicecall"
+          "source": "/vi/search-courses/*",
+          "function": "seo-searchCourse"
         },
         {
-          "source": "/en/voicecalls/*",
-          "function": "seo-voicecall"
-        },
-        {
-          "source": "/vi/voicecalls/*",
-          "function": "seo-voicecall"
-        },
-        {
-          "source": "/page-data/voicecalls/*/page-data.json",
-          "function": "seo-voicecallPageData"
-        },
-        {
-          "source": "/page-data/en/voicecalls/*/page-data.json",
-          "function": "seo-voicecallPageData"
-        },
-        {
-          "source": "/page-data/vi/voicecalls/*/page-data.json",
-          "function": "seo-voicecallPageData"
-        },
-        {
-          "source": "/videocalls/*",
-          "function": "seo-videocall"
+          "source": "/page-data/vi/search-courses/*/page-data.json",
+          "function": "seo-searchCoursePageData"
         },
         {
           "source": "/en/videocalls/*",
@@ -74,40 +58,60 @@
           "function": "seo-videocall"
         },
         {
-          "source": "/page-data/videocalls/*/page-data.json",
-          "function": "seo-videocallPageData"
+          "source": "/de/courses/*",
+          "function": "seo-course"
         },
         {
-          "source": "/page-data/en/videocalls/*/page-data.json",
-          "function": "seo-videocallPageData"
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/vi/videocalls/*/page-data.json",
-          "function": "seo-videocallPageData"
+          "source": "/de/courses/*",
+          "function": "seo-course"
         },
         {
-          "source": "/search-courses/*",
-          "function": "seo-searchCourse"
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
         },
         {
-          "source": "/en/search-courses/*",
-          "function": "seo-searchCourse"
+          "source": "/de/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
+        },
+        {
+          "source": "/de/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
         },
         {
           "source": "/vi/search-courses/*",
           "function": "seo-searchCourse"
         },
         {
-          "source": "/page-data/search-courses/*/page-data.json",
-          "function": "seo-searchCoursePageData"
+          "source": "/en/videocalls/*",
+          "function": "seo-videocall"
         },
         {
-          "source": "/page-data/en/search-courses/*/page-data.json",
-          "function": "seo-searchCoursePageData"
+          "source": "/vi/videocalls/*",
+          "function": "seo-videocall"
         },
         {
           "source": "/page-data/vi/search-courses/*/page-data.json",
           "function": "seo-searchCoursePageData"
+        },
+        {
+          "source": "/en/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/courses/*",
+          "function": "seo-course"
         }
       ],
       "headers": [
@@ -223,18 +227,18 @@
     {
       "target": "dev-unitz-zoom",
       "public": "public",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
       "rewrites": [
         {
-          "source": "/zoom_oauth",
-          "function": "triggers-tool-zoomOAuth"
-        },
-        {
-          "source": "/zoom_install",
-          "function": "triggers-tool-zoomInstall"
-        },
-        {
           "source": "/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/de/courses/*",
           "function": "seo-course"
         },
         {
@@ -250,6 +254,10 @@
           "function": "seo-coursePageData"
         },
         {
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
+        },
+        {
           "source": "/page-data/en/courses/*/page-data.json",
           "function": "seo-coursePageData"
         },
@@ -258,32 +266,12 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/voicecalls/*",
-          "function": "seo-voicecall"
+          "source": "/vi/search-courses/*",
+          "function": "seo-searchCourse"
         },
         {
-          "source": "/en/voicecalls/*",
-          "function": "seo-voicecall"
-        },
-        {
-          "source": "/vi/voicecalls/*",
-          "function": "seo-voicecall"
-        },
-        {
-          "source": "/page-data/voicecalls/*/page-data.json",
-          "function": "seo-voicecallPageData"
-        },
-        {
-          "source": "/page-data/en/voicecalls/*/page-data.json",
-          "function": "seo-voicecallPageData"
-        },
-        {
-          "source": "/page-data/vi/voicecalls/*/page-data.json",
-          "function": "seo-voicecallPageData"
-        },
-        {
-          "source": "/videocalls/*",
-          "function": "seo-videocall"
+          "source": "/page-data/vi/search-courses/*/page-data.json",
+          "function": "seo-searchCoursePageData"
         },
         {
           "source": "/en/videocalls/*",
@@ -294,40 +282,60 @@
           "function": "seo-videocall"
         },
         {
-          "source": "/page-data/videocalls/*/page-data.json",
-          "function": "seo-videocallPageData"
+          "source": "/de/courses/*",
+          "function": "seo-course"
         },
         {
-          "source": "/page-data/en/videocalls/*/page-data.json",
-          "function": "seo-videocallPageData"
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/vi/videocalls/*/page-data.json",
-          "function": "seo-videocallPageData"
+          "source": "/de/courses/*",
+          "function": "seo-course"
         },
         {
-          "source": "/search-courses/*",
-          "function": "seo-searchCourse"
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
         },
         {
-          "source": "/en/search-courses/*",
-          "function": "seo-searchCourse"
+          "source": "/de/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
+        },
+        {
+          "source": "/de/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/page-data/de/courses/*/page-data.json",
+          "function": "seo-coursePageData"
         },
         {
           "source": "/vi/search-courses/*",
           "function": "seo-searchCourse"
         },
         {
-          "source": "/page-data/search-courses/*/page-data.json",
-          "function": "seo-searchCoursePageData"
+          "source": "/en/videocalls/*",
+          "function": "seo-videocall"
         },
         {
-          "source": "/page-data/en/search-courses/*/page-data.json",
-          "function": "seo-searchCoursePageData"
+          "source": "/vi/videocalls/*",
+          "function": "seo-videocall"
         },
         {
           "source": "/page-data/vi/search-courses/*/page-data.json",
           "function": "seo-searchCoursePageData"
+        },
+        {
+          "source": "/en/courses/*",
+          "function": "seo-course"
+        },
+        {
+          "source": "/courses/*",
+          "function": "seo-course"
         }
       ],
       "headers": [

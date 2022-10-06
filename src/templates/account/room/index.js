@@ -1,4 +1,4 @@
-import Component from '../../pages/accounts/me';
+import Component from '../../../pages/accounts/me/room';
 
 export const component = Component;
 
