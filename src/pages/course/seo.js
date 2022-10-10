@@ -37,4 +37,4 @@ const Index = withPageContext((props) => {
   );
 });
 
-export default Index;
+export default displayName(Index);
