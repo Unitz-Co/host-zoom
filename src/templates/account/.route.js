@@ -61,22 +61,6 @@ routeStore.addRule('toolAccount', {
   },
 });
 
-routeStore.addRule('toolAccountCreate', {
-  url: () => {
-    return `/accounts/create`;
-  },
-  parse: (urlObject) => {
-    const params = {};
-    for (let param in urlObject.searchParams) {
-      params[param] = urlObject.searchParams.get(param);
-    }
-    return params;
-  },
-  match: (urlObject) => {
-    return urlObject.pathname === 'accounts/create';
-  },
-});
-
 // Account
 
 routeStore.addRule('userNotification', {
@@ -389,7 +373,7 @@ routeStore.addRule('toolAccountDetail', {
   url: (params) => {
     const id = _.get(params, 'id', 'unknown');
     const slug = _.get(params, 'slug');
-    if(slug) {
+    if (slug) {
       return `/${slug}`;
     }
     return `/accounts?id=${id}`;
@@ -410,7 +394,7 @@ routeStore.addRule('toolAccount', {
   url: (params) => {
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
-    if(slug) {
+    if (slug) {
       return `/${slug}`;
     }
     return `/account?id=${id}`;
