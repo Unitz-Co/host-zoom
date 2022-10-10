@@ -3,6 +3,7 @@ import React from 'react';
 
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
+import displayName from '@vl/redata/displayName.macro';
 
 import App from '@uz/unitz-app-web/UserApp';
 import _ from 'lodash';
