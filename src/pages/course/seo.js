@@ -5,6 +5,7 @@ import App from '@uz/unitz-app-web/UserApp';
 import Layout from '@uz/unitz-layout-web/LayoutMain';
 import PageData from '../../data/PageDataQuery';
 import DIV from '@vl/redata/DIV.macro';
+import displayName from '@vl/redata/displayName.macro';
 import { ctx } from '@vl/redata';
 import CourseDetail from '@uz/unitz-pages/CourseDetail';
 import { Helmet } from 'react-helmet';
@@ -36,4 +37,4 @@ const Index = withPageContext((props) => {
   );
 });
 
-export default Index;
+export default displayName(Index);

@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
+import displayName from '@vl/redata/displayName.macro';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import App from '@uz/unitz-app-web/UserApp';

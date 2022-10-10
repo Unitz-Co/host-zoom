@@ -2,6 +2,7 @@ import React from 'react';
 
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
+import displayName from '@vl/redata/displayName.macro';
 
 import SignupPage from '@uz/unitz-pages/SignupPage';
 

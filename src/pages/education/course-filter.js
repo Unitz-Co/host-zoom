@@ -2,6 +2,7 @@ import React from 'react';
 
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
+import displayName from '@vl/redata/displayName.macro';
 
 import EducationCourseFilter from '@uz/unitz-pages/EducationCourseFilter';
 import FacebookMessenger from '@uz/unitz-components-web/FacebookMessenger';
