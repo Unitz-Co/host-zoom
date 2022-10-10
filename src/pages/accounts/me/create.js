@@ -2,18 +2,17 @@ import React from 'react';
 
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
-import displayName from '@vl/redata/displayName.macro';
 
 import App from '@uz/unitz-app-web/ToolApp';
 import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutZoomToolMenu';
 import withPageContext from '@uz/unitz-pages/withPageContext';
-import HomePage from '@uz/unitz-tool-pages/MyAccount';
+import HomePage from '@uz/unitz-tool-pages/AccountCreate';
 
 import PageData from '../../../data/PageDataQuery';
 
-const MyAccountIdx = withPageContext((props) => {
+const CreateOrganizationIdx = withPageContext((props) => {
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
@@ -29,4 +28,4 @@ const MyAccountIdx = withPageContext((props) => {
   );
 });
 
-export default MyAccountIdx;
+export default CreateOrganizationIdx;

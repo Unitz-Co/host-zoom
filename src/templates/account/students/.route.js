@@ -1,10 +1,10 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const useGbRoute = require('@vl/hooks/useGbRoute');
+const { getGbRoute } = require('@vl/hooks/useGbRoute');
 
 routeStore.addRule('toolAccountStudents', {
   url: (params) => {
-    params = _.merge({}, params, _.get(useGbRoute().getPageContext(), 'params'));
+    params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
     if(slug) {

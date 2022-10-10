@@ -5,6 +5,7 @@ import App from '@uz/unitz-app-web/UserApp';
 import Layout from '@uz/unitz-layout-web/LayoutMain';
 import PageData from '../../data/PageDataQuery';
 import DIV from '@vl/redata/DIV.macro';
+import displayName from '@vl/redata/displayName.macro';
 import SEO from '@uz/unitz-layout-web/SEO';
 import { ctx } from '@vl/redata';
 import _ from 'lodash';
@@ -69,4 +70,4 @@ const Index = withPageContext((props) => {
   );
 });
 
-export default Index;
+export default displayName(Index);
