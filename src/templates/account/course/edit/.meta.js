@@ -58,7 +58,8 @@ exports.createPages = withLocale(async function(item, gatsby) {
         slug: accountSlug,
         lang: localeConfig.get('lang'),
         params: {
-          ...account,
+          ..._.omit(account, ['id']),
+          accountId,
         },
       });
       return gatsby.actions.createPage({
