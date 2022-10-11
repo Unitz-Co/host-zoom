@@ -49,7 +49,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
         },
       };
 
-      const accountSlug = routeStore.toUrl('toolAccountCourseEdit', {}, { account });
+      const accountSlug = routeStore.toUrl('toolAccountMyAccount', account);
       const accountPath = localeConfig.langSlug(path.join('/', accountSlug));
       console.log('creating page', accountPath);
       const pageContext = _.cloneDeep({
@@ -58,8 +58,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
         slug: accountSlug,
         lang: localeConfig.get('lang'),
         params: {
-          ..._.omit(account, ['id']),
-          accountId,
+          ...account,
         },
       });
       return gatsby.actions.createPage({
