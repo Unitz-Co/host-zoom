@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountCourseTemplates', {
     if (slug) {
       return `/${slug}/course-templates`;
     }
-    return `/account/course-template`;
+    return `/accounts/me/course-template`;
   },
   parse: (urlObject) => {
     const params = {};

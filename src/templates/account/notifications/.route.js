@@ -12,7 +12,7 @@ routeStore.addRule('toolAccountNotification', {
     if (slug) {
       return `/${slug}/notifications`;
     }
-    return `/account/notifications`;
+    return `/accounts/me/notifications`;
   },
   parse: (urlObject) => {
     const params = {};

@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountCoursePickTemplates', {
     if (accountSlug) {
       return `/${accountSlug}/course/pick-templates${queryString}`;
     }
-    return `/account/course/pick-templates${queryString}`;
+    return `/accounts/me/course/use-templates${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};
