@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountRoomDetail', {
     if (accountSlug) {
       return `/${accountSlug}/room${queryString}`;
     }
-    return `/account/room${queryString}`;
+    return `/accounts/me/room${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

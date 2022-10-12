@@ -11,7 +11,7 @@ routeStore.addRule('toolAccountProgramTemplates', {
     if (slug) {
       return `/${slug}/program-templates`;
     }
-    return `/account/program-template`;
+    return `/accounts/me/program-template`;
   },
   parse: (urlObject) => {
     const params = {};

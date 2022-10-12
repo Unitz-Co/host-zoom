@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountStudentReport', {
     if (accountSlug) {
       return `/${accountSlug}/student${queryString}`;
     }
-    return `/account/student${queryString}`;
+    return `/accounts/me/student/report${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

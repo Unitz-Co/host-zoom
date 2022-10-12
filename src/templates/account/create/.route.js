@@ -12,7 +12,7 @@ routeStore.addRule('toolCreateAccount', {
     if (slug) {
       return `/${slug}/create`;
     }
-    return `/account/create`;
+    return `/accounts/me/create`;
   },
   parse: (urlObject) => {
     const params = {};

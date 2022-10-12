@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountProgramTemplateCreate', {
     if (accountSlug) {
       return `/${accountSlug}/program-template/create${queryString}`;
     }
-    return `/account/program-template/create${queryString}`;
+    return `/accounts/me/program-template/create${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

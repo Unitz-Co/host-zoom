@@ -12,7 +12,7 @@ routeStore.addRule('toolAccountCalendar', {
     if (slug) {
       return `/${slug}/calendar`;
     }
-    return `/account/calendar`;
+    return `/accounts/me/calendar`;
   },
   parse: (urlObject) => {
     const params = {};

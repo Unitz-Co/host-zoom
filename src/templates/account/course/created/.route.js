@@ -2,15 +2,15 @@ const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRoute');
 
-routeStore.addRule('toolAccountCourseTemplateDetail', {
+routeStore.addRule('toolAccountCourseCreated', {
   url: (params, ctx) => {
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
     const queryString = routeStore.queryString({ id: _.get(params, 'id') });
     if (accountSlug) {
-      return `/${accountSlug}/course-template${queryString}`;
+      return `/${accountSlug}/course/created${queryString}`;
     }
-    return `/accounts/me/course-template/detail${queryString}`;
+    return `/accounts/me/course/created${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};
@@ -20,6 +20,6 @@ routeStore.addRule('toolAccountCourseTemplateDetail', {
     return params;
   },
   match: (urlObject) => {
-    return urlObject.pathname === 'account/course-template';
+    return urlObject.pathname === 'account/course/created';
   },
 });
