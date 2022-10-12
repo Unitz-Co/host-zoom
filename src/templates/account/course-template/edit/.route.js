@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountCourseTemplateEdit', {
     if (accountSlug) {
       return `/${accountSlug}/course-template/edit${queryString}`;
     }
-    return `/account/course-template/edit${queryString}`;
+    return `/accounts/me/course-template/edit${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

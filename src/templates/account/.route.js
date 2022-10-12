@@ -47,7 +47,7 @@ routeStore.addRule('toolAccount', {
     if (slug) {
       return `/${slug}`;
     }
-    return `/account?id=${id}`;
+    return `/accounts/me?id=${id}`;
   },
   parse: (urlObject) => {
     const params = {};

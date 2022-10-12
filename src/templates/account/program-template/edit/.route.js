@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountProgramTemplateEdit', {
     if (accountSlug) {
       return `/${accountSlug}/program-template/edit${queryString}`;
     }
-    return `/account/program-template/edit${queryString}`;
+    return `/accounts/me/program-template/edit${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

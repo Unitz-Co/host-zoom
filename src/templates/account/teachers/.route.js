@@ -7,10 +7,10 @@ routeStore.addRule('toolAccountTeachers', {
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
-    if(slug) {
+    if (slug) {
       return `/${slug}/teachers`;
     }
-    return `/account/teachers?id=${id}`;
+    return `/accounts/me/teacher`;
   },
   parse: (urlObject) => {
     const params = {};
@@ -23,4 +23,3 @@ routeStore.addRule('toolAccountTeachers', {
     return urlObject.pathname === 'account/teachers';
   },
 });
-

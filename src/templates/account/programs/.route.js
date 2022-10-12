@@ -11,7 +11,7 @@ routeStore.addRule('toolAccountPrograms', {
     if (slug) {
       return `/${slug}/programs`;
     }
-    return `/account/programs`;
+    return `/accounts/me/program`;
   },
   parse: (urlObject) => {
     const params = {};
