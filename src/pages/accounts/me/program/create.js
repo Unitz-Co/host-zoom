@@ -6,13 +6,13 @@ import DIV from '@vl/redata/DIV.macro';
 import App from '@uz/unitz-app-web/ToolApp';
 import SEO from '@uz/unitz-layout-web/SEO';
 
-import Layout from '@uz/unitz-layout-web/LayoutZoom';
+import Layout from '@uz/unitz-layout-web/LayoutZoomToolMenu';
 import withPageContext from '@uz/unitz-pages/withPageContext';
-import HomePage from '@uz/unitz-tool-pages/AccountCreate';
+import HomePage from '@uz/unitz-tool-pages/ProgramCreate';
 
-import PageData from '../../../data/PageDataQuery';
+import PageData from '../../../../data/PageDataQuery';
 
-const CreateOrganizationIdx = withPageContext((props) => {
+const ProgramCreatorIdx = withPageContext((props) => {
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
@@ -20,11 +20,7 @@ const CreateOrganizationIdx = withPageContext((props) => {
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'Homepage' })} />
           <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS>
           <Layout.POS name="app-body">
-            <div className="bg-background1 h-screen">
-              <div className="wrapper app-row py-0">
-                <HomePage />
-              </div>
-            </div>
+            <HomePage />
           </Layout.POS>
         </DIV>
       </Layout>
@@ -32,4 +28,4 @@ const CreateOrganizationIdx = withPageContext((props) => {
   );
 });
 
-export default CreateOrganizationIdx;
+export default ProgramCreatorIdx;
