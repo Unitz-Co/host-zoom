@@ -10,7 +10,7 @@ routeStore.addRule('toolAccountAdmin', {
     if (slug) {
       return `/${slug}/admin`;
     }
-    return `/accounts/me/admin`;
+    return `/accounts/me/members`;
   },
   parse: (urlObject) => {
     const params = {};
