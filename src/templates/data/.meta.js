@@ -1,7 +1,7 @@
 const path = require('path');
 const _ = require('lodash');
 // const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const { withLocale } = require('@uz/mod-translations/utils');
+const { withLocale } = require('@uz/mod-translations/utils-biz');
 
 require('@vl/mod-config/web');
 
