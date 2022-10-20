@@ -1,7 +1,7 @@
 const _ = require('lodash');
-const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const querystring = require('querystring');
+const { getGbRoute } = require('@vl/hooks/useGbRoute');
 
 routeStore.addRule('accounts', {
   url: (params) => {
@@ -37,27 +37,6 @@ routeStore.addRule('toolAccountDetail', {
   },
   match: (urlObject) => {
     return urlObject.pathname === 'accounts';
-  },
-});
-
-routeStore.addRule('toolAccount', {
-  url: (params) => {
-    const id = _.get(params, 'id');
-    const slug = _.get(params, 'slug');
-    if (slug) {
-      return `/${slug}`;
-    }
-    return `/accounts/me?id=${id}`;
-  },
-  parse: (urlObject) => {
-    const params = {};
-    for (let param in urlObject.searchParams) {
-      params[param] = urlObject.searchParams.get(param);
-    }
-    return params;
-  },
-  match: (urlObject) => {
-    return urlObject.pathname === 'account';
   },
 });
 
@@ -392,6 +371,7 @@ routeStore.addRule('toolAccountDetail', {
 
 routeStore.addRule('toolAccount', {
   url: (params) => {
+    params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
     if (slug) {
