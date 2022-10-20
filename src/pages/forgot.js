@@ -10,7 +10,7 @@ import App from '@uz/unitz-app-web/UserApp';
 import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutMain';
-import withPageContext from '@uz/unitz-pages/withPageContext';
+import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import PageData from '../data/PageDataQuery';
 
 const ForgotIndex = withPageContext((props) => {
