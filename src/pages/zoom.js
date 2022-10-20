@@ -42,7 +42,6 @@ const ZoomIndex = withPageContext((props) => {
             </div>
             <HomePage />
           </Layout.POS>
-          <Layout.POS name="app-footer">{ctx.apply('ctf.renderSection', { name: 'FooterSection' })}</Layout.POS>
         </DIV>
       </Layout>
     </App>
