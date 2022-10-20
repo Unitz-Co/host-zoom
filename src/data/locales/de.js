@@ -1,8 +1,20 @@
 import { graphql, useStaticQuery } from 'gatsby';
 
-const GbCtfProviderQuery_vi = graphql`
-  query GbCtfProviderQuery_vi {
-    allContentfulPage(filter: { node_locale: { eq: "vi-VN" } }) {
+const GbCtfProviderQuery_de = graphql`
+  query GbCtfProviderQuery_de {
+    allContentfulAsset(filter: { node_locale: { eq: "de" } }) {
+      nodes {
+        id: contentful_id
+        title
+        fixed {
+          src
+        }
+        fluid {
+          src
+        }
+      }
+    }
+    allContentfulPage(filter: { node_locale: { eq: "de" } }) {
       nodes {
         id
         name
@@ -39,7 +51,7 @@ const GbCtfProviderQuery_vi = graphql`
         }
       }
     }
-    allContentfulSection(filter: { node_locale: { eq: "vi-VN" } }) {
+    allContentfulSection(filter: { node_locale: { eq: "de" } }) {
       nodes {
         id
         name
@@ -129,7 +141,7 @@ const GbCtfProviderQuery_vi = graphql`
         }
       }
     }
-    allContentfulItem(filter: { node_locale: { eq: "vi-VN" } }) {
+    allContentfulItem(filter: { node_locale: { eq: "de" } }) {
       nodes {
         id
         name
@@ -187,47 +199,12 @@ const GbCtfProviderQuery_vi = graphql`
         }
       }
     }
-    allContentfulCategory(filter: { node_locale: { eq: "vi-VN" } }) {
-      nodes {
-        id: contentful_id
-        displayName
-        featured
-        highlight
-        highlightSlug
-        icon
-        longText {
-          longText
-        }
-        slug
-        images {
-          fixed(width: 1600) {
-            width
-            height
-            src
-            srcSet
-          }
-        }
-        image {
-          fixed(width: 1600) {
-            width
-            height
-            src
-            srcSet
-          }
-        }
-        children: chidlren {
-          ... on ContentfulCategory {
-            id: contentful_id
-          }
-        }
-      }
-    }
   }
 `;
 
 export const PageData = ({ children }) => {
   // eslint-disable-next-line
-  const res = useStaticQuery(GbCtfProviderQuery_vi);
+  const res = useStaticQuery(GbCtfProviderQuery_de);
 
   return children ? children(res) : null;
 };

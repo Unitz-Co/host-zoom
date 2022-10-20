@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 const { gatsbyLoadTemplate } = require('@vl/mod-utils/gatsbyLoadTemplate');
 const path = require('path');
-const { withLocale } = require('@uz/mod-translations/utils');
+const { withLocale } = require('@uz/mod-translations/utils-biz');
 
 exports.createPages = (gatsby) => {
   return Promise.all([gatsbyLoadTemplate({ gatsby })]);

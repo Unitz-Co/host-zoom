@@ -5,7 +5,7 @@ import DIV from '@vl/redata/DIV.macro';
 import displayName from '@vl/redata/displayName.macro';
 
 // import HomePage from '@uz/unitz-pages/CFHomeZoomPage';
-import withPageContext from '@uz/unitz-pages/withPageContext';
+import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import App from '@uz/unitz-app-web/ToolApp';
 import HomePage from '@uz/unitz-tool-pages/Home';
 
