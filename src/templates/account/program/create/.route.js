@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const { getGbRoute } = require('@vl/hooks/useGbRoute');
+const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountProgramCreate', {
   url: (params, ctx) => {

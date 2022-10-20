@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const { getGbRoute } = require('@vl/hooks/useGbRoute');
+const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountPrograms', {
   url: (params) => {

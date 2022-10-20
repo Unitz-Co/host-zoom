@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const useGbRoute = require('@vl/hooks/useGbRoute');
+const useGbRoute = require('@vl/hooks/useGbRouteDe');
 const querystring = require('querystring');
 
 routeStore.addRule('toolAccountCalendar', {
