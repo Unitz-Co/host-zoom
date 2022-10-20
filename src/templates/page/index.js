@@ -9,8 +9,8 @@ import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutMain';
 import ContentPageLayout from '@uz/unitz-ctf-theme/layouts/ContentPageLayout';
-import useRoute from '@vl/hooks/useGbRoute';
-import withPageContext from '@uz/unitz-pages/withPageContext';
+import useRoute from '@vl/hooks/useGbRouteDe';
+import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import _ from 'lodash';
 import PageData from '../../data/PageDataQuery';
 
