@@ -4,14 +4,13 @@ const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountCourses', {
-  url: (params) => {
-    params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
-    const id = _.get(params, 'id');
-    const slug = _.get(params, 'slug');
-    if (slug) {
-      return `/${slug}/courses`;
+  url: (params, ctx) => {
+    const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
+    const accountSlug = _.get(accountParams, 'slug');
+    if (accountSlug) {
+      return `/${accountSlug}/courses`;
     }
-    return `/accounts/me/course`;
+    return `/accounts/me/courses`;
   },
   parse: (urlObject) => {
     const params = {};
