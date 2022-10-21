@@ -1,11 +1,10 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const querystring = require('querystring');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountDetail', {
   url: (params) => {
-    params = _.merge({}, params, _.get(getGbRoute().getPageContextParams(), 'params'));
+    params = _.merge({}, params, getGbRoute().getPageContextParams());
     const slug = _.get(params, 'slug');
     if (slug) {
       return `/${slug}`;
