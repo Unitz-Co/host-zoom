@@ -21,7 +21,7 @@ const ZoomIndex = withPageContext((props) => {
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'HomePageLanding' })} />
-          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'articleNavbarSection' })}</Layout.POS>
+          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS>
           <Layout.POS name="app-body">
             <div className="px-2">
               <a
