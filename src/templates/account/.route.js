@@ -3,9 +3,8 @@ const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountDetail', {
-  url: (params) => {
-    params = _.merge({}, params, getGbRoute().getPageContextParams());
-    const slug = _.get(params, 'slug');
+  url: (params, ctx) => {
+    const slug = _.get(params, 'slug') || _.get(ctx, 'account.slug') || _.get(getGbRoute().getPageContextParams(), 'slug');
     if (slug) {
       return `/${slug}`;
     }
