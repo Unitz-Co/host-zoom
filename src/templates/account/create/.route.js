@@ -1,18 +1,9 @@
 const _ = require('lodash');
-const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const useGbRoute = require('@vl/hooks/useGbRouteDe');
-const querystring = require('querystring');
 
 routeStore.addRule('toolCreateAccount', {
   url: (params) => {
-    params = _.merge({}, params, _.get(useGbRoute().getPageContext(), 'params'));
-    const id = _.get(params, 'id');
-    const slug = _.get(params, 'slug');
-    if (slug) {
-      return `/${slug}/create`;
-    }
-    return `/accounts/me/create`;
+    return `/account/create`;
   },
   parse: (urlObject) => {
     const params = {};
