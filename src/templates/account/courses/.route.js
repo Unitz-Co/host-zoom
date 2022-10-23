@@ -1,10 +1,11 @@
 const _ = require('lodash');
-const slugify = require('slugify');
+const { ACL } = require('@vl/mod-utils/ACL');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountCourses', {
   url: (params, ctx) => {
+    if(!ACL.can('view_course')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
     if (accountSlug) {

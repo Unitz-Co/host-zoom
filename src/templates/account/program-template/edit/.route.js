@@ -1,9 +1,11 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
+const { ACL } = require('@vl/mod-utils/ACL');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountProgramTemplateEdit', {
   url: (params, ctx) => {
+    if(!ACL.can('edit_program_template')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
     const queryString = routeStore.queryString({ id: _.get(params, 'id') });
