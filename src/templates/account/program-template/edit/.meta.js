@@ -57,6 +57,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
         accountId,
         slug: accountSlug,
         lang: localeConfig.get('lang'),
+        permissions: ['add_program_template', 'edit_program_template'],
         params: {
           ..._.omit(account, ['id']),
           accountId,
