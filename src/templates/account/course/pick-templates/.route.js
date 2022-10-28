@@ -8,9 +8,13 @@ routeStore.addRule('toolAccountCoursePickTemplates', {
     if(!ACL.can('add_course')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/course/pick-templates${queryString}`;
+    }
+    if(accountId) {
+      return `/account/course/pick_templates${queryString}`;
     }
     return `/accounts/me/course/use-templates${queryString}`;
   },

@@ -8,8 +8,13 @@ routeStore.addRule('toolAccountPrograms', {
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ accountId });
     if (slug) {
-      return `/${slug}/programs`;
+      return `/${slug}/programs${queryString}`;
+    }
+    if(accountId) {
+      return `/account/programs${queryString}`;
     }
     return `/accounts/me/program`;
   },

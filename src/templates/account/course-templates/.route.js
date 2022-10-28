@@ -5,9 +5,14 @@ const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 routeStore.addRule('toolAccountCourseTemplates', {
   url: (params, ctx) => {
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ accountId });
     const accountSlug = _.get(accountParams, 'slug');
     if (accountSlug) {
-      return `/${accountSlug}/course-templates`;
+      return `/${accountSlug}/course-templates${queryString}`;
+    }
+    if(accountId) {
+      return `/account/course-templates${queryString}`;
     }
     return `/accounts/me/course-templates`;
   },

@@ -6,9 +6,13 @@ routeStore.addRule('toolAccountCourseCreated', {
   url: (params, ctx) => {
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/course/created${queryString}`;
+    }
+    if(accountId) {
+      return `/account/course/created${queryString}`;
     }
     return `/accounts/me/course/created${queryString}`;
   },

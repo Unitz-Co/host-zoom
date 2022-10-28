@@ -1,18 +1,20 @@
 const _ = require('lodash');
 const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const useGbRoute = require('@vl/hooks/useGbRouteDe');
+const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 const querystring = require('querystring');
 
 routeStore.addRule('toolAccountMyAccount', {
   url: (params) => {
-    params = _.merge({}, params, _.get(useGbRoute().getPageContext(), 'params'));
+    params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ accountId });
     const slug = _.get(params, 'slug');
     if (slug) {
-      return `/${slug}/my-account`;
+      return `/${slug}/my-account${queryString}`;
     }
-    return `/accounts/me/my-account`;
+    return `/accounts/me/my-account${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

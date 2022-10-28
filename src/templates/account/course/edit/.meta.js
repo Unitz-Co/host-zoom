@@ -6,32 +6,7 @@ const { withLocale } = require('@uz/mod-translations/utils-biz');
 require('@vl/mod-config/builder');
 require('@vl/mod-config/web').loadEnv();
 
-const hasuraClient = require('@vl/mod-clients/hasuraCtf');
-
-const getAllAccounts = async () => {
-  const query = hasuraClient.gql`
-    query account {
-      account: b2b_account {
-        id
-        slug
-        account_profile {
-          id
-          display_name
-          avatar_url
-        }
-      }
-    }
-  `;
-  try {
-    const rtn = await hasuraClient.getClient().request(query);
-
-    const data = _.get(rtn, 'account', []);
-    return data;
-  } catch (err) {
-    console.log(err);
-  }
-  return [];
-};
+const { getAllAccounts } = require('@uz/unitz-tool-pages/pageBuilder');
 
 exports.createPages = withLocale(async function(item, gatsby) {
   // return [];

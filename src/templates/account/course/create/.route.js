@@ -8,9 +8,13 @@ routeStore.addRule('toolAccountCourseCreate', {
     if(!ACL.can('add_course')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/course/create${queryString}`;
+    }
+    if(accountId) {
+      return `/account/course/create${queryString}`;
     }
     return `/accounts/me/course/create${queryString}`;
   },

@@ -8,8 +8,13 @@ routeStore.addRule('toolAccountProgramTemplates', {
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ accountId });
     if (slug) {
-      return `/${slug}/program-templates`;
+      return `/${slug}/program-templates${queryString}`;
+    }
+    if(accountId) {
+      return `/account/program-templates${queryString}`;
     }
     return `/accounts/me/program-template`;
   },
