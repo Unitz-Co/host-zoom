@@ -6,9 +6,13 @@ routeStore.addRule('toolAccountRoomDetail', {
   url: (params, ctx) => {
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/room${queryString}`;
+    }
+    if(accountId) {
+      return `/account/room${queryString}`;
     }
     return `/accounts/me/room${queryString}`;
   },

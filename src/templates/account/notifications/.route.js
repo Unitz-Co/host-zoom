@@ -1,16 +1,19 @@
 const _ = require('lodash');
-const slugify = require('slugify');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
-const useGbRoute = require('@vl/hooks/useGbRouteDe');
-const querystring = require('querystring');
+const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountNotification', {
   url: (params) => {
-    params = _.merge({}, params, _.get(useGbRoute().getPageContext(), 'params'));
+    params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ accountId });
     if (slug) {
-      return `/${slug}/notifications`;
+      return `/${slug}/notifications${queryString}`;
+    }
+    if(accountId) {
+      return `/account/notifications${queryString}`;
     }
     return `/accounts/me/notifications`;
   },

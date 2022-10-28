@@ -6,11 +6,15 @@ routeStore.addRule('toolAccountEdit', {
   url: (params, ctx) => {
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
-      return `/${accountSlug}/organization-setting/edit${queryString}`;
+      return `/${accountSlug}/settings/edit${queryString}`;
     }
-    return `/accounts/me/organization-setting/edit${queryString}`;
+    if(accountId) {
+      return `/account/settings/edit${queryString}`;
+    }
+    return `/accounts/me/settings/edit${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};

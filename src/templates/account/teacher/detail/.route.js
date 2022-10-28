@@ -10,6 +10,10 @@ routeStore.addRule('toolAccountTeacherReport', {
     if (accountSlug) {
       return `/${accountSlug}/teacher${queryString}`;
     }
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    if(accountId) {
+      return `/account/teacher/detail${queryString}&accountId=${accountId}`;
+    }
     return `/accounts/me/teacher/detail${queryString}`;
   },
   parse: (urlObject) => {

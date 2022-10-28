@@ -8,9 +8,13 @@ routeStore.addRule('toolAccountCourseEdit', {
     if(!ACL.can('edit_course', params)) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/course/edit${queryString}`;
+    }
+    if(accountId) {
+      return `/account/course/edit${queryString}`;
     }
     return `/accounts/me/course/edit${queryString}`;
   },

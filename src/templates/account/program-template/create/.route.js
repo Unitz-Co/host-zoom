@@ -8,9 +8,13 @@ routeStore.addRule('toolAccountProgramTemplateCreate', {
     if(!ACL.can('add_program_template')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/program-template/create${queryString}`;
+    }
+    if(accountId) {
+      return `/account/program-template/create${queryString}`;
     }
     return `/accounts/me/program-template/create${queryString}`;
   },

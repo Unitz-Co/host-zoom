@@ -6,9 +6,13 @@ routeStore.addRule('toolAccountProgramTemplateDetail', {
   url: (params, ctx) => {
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
-    const queryString = routeStore.queryString({ id: _.get(params, 'id') });
+    let accountId = _.get(getGbRoute().getParams(), 'accountId');
+    const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
       return `/${accountSlug}/program-template${queryString}`;
+    }
+    if(accountId) {
+      return `/account/program-template${queryString}`;
     }
     return `/accounts/me/program-template/detail${queryString}`;
   },
