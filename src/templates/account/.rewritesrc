@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/account/*",
-      "function": "seo-account"
+      "function": "seo-tool-account"
     },
     {
       "source": "/page-data/account/*/page-data.json",
-      "function": "seo-accountPageData"
+      "function": "seo-tool-accountPageData"
     }
   ],
   "locales": ["en", "vi", "de"]
