@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/account/*",
+      "function": "seo-account"
+    },
+    {
+      "source": "/page-data/account/*/page-data.json",
+      "function": "seo-accountPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

@@ -10,6 +10,38 @@
       ],
       "rewrites": [
         {
+          "source": "/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/de/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/en/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/vi/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/page-data/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
+          "source": "/page-data/de/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
+          "source": "/page-data/en/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
+          "source": "/page-data/vi/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
           "source": "/courses/*",
           "function": "seo-course"
         },
@@ -56,38 +88,6 @@
         {
           "source": "/vi/videocalls/*",
           "function": "seo-videocall"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
         },
         {
           "source": "/vi/search-courses/*",
@@ -234,6 +234,38 @@
       ],
       "rewrites": [
         {
+          "source": "/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/de/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/en/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/vi/account/*",
+          "function": "seo-account"
+        },
+        {
+          "source": "/page-data/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
+          "source": "/page-data/de/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
+          "source": "/page-data/en/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
+          "source": "/page-data/vi/account/*/page-data.json",
+          "function": "seo-accountPageData"
+        },
+        {
           "source": "/courses/*",
           "function": "seo-course"
         },
@@ -280,38 +312,6 @@
         {
           "source": "/vi/videocalls/*",
           "function": "seo-videocall"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
-        },
-        {
-          "source": "/de/courses/*",
-          "function": "seo-course"
-        },
-        {
-          "source": "/page-data/de/courses/*/page-data.json",
-          "function": "seo-coursePageData"
         },
         {
           "source": "/vi/search-courses/*",
