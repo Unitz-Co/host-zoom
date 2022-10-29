@@ -13,7 +13,7 @@ routeStore.addRule('toolAccountDetail', {
     if(accountId) {
       return `/account${queryString}`;
     }
-    return `/accounts/me`;
+    return `/account/me`;
   },
   parse: (urlObject) => {
     const params = {};
