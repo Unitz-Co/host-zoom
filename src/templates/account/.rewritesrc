@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/account/*",
+      "source": "/*",
       "function": "seo-tool-account"
     },
     {
-      "source": "/page-data/account/*/page-data.json",
+      "source": "/page-data/*/page-data.json",
       "function": "seo-tool-accountPageData"
     }
   ],
