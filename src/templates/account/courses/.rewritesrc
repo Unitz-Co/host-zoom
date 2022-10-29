@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/courses",
+      "function": "seo-courses"
+    },
+    {
+      "source": "/page-data/*/courses/page-data.json",
+      "function": "seo-coursesPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}
