@@ -50,8 +50,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/de/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/de/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/de/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/de/*/teachers",
@@ -94,8 +102,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/en/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/en/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/en/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/en/*/teachers",
@@ -142,8 +158,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/de/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/de/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/de/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/de/*/teachers/page-data.json",
@@ -186,8 +210,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/en/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/en/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/en/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/en/*/teachers/page-data.json",
@@ -230,8 +262,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/vi/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/vi/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/vi/*/teachers/page-data.json",
@@ -270,8 +310,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/*/teachers/page-data.json",
@@ -314,8 +362,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/vi/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/vi/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/vi/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/vi/*/teachers",
@@ -354,8 +410,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/*/teachers",
@@ -522,8 +586,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/de/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/de/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/de/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/de/*/teachers",
@@ -566,8 +638,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/en/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/en/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/en/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/en/*/teachers",
@@ -614,8 +694,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/de/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/de/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/de/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/de/*/teachers/page-data.json",
@@ -658,8 +746,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/en/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/en/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/en/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/en/*/teachers/page-data.json",
@@ -702,8 +798,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/vi/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/vi/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/vi/*/teachers/page-data.json",
@@ -742,8 +846,16 @@
           "function": "seo-tool-account-detailPageData"
         },
         {
+          "source": "/page-data/*/student/page-data.json",
+          "function": "seo-tool-account-studentPageData"
+        },
+        {
           "source": "/page-data/*/students/page-data.json",
           "function": "seo-tool-account-studentsPageData"
+        },
+        {
+          "source": "/page-data/*/teacher/page-data.json",
+          "function": "seo-tool-account-teacherPageData"
         },
         {
           "source": "/page-data/*/teachers/page-data.json",
@@ -786,8 +898,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/vi/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/vi/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/vi/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/vi/*/teachers",
@@ -826,8 +946,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/*/student",
+          "function": "seo-tool-account-student"
+        },
+        {
           "source": "/*/students",
           "function": "seo-tool-account-students"
+        },
+        {
+          "source": "/*/teacher",
+          "function": "seo-tool-account-teacher"
         },
         {
           "source": "/*/teachers",
