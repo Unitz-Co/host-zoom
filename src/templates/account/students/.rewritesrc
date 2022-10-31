@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/students",
+      "function": "seo-tool-account-students"
+    },
+    {
+      "source": "/page-data/*/students/page-data.json",
+      "function": "seo-tool-account-studentsPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

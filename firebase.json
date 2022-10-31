@@ -19,7 +19,7 @@
         },
         {
           "source": "/de/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/de/*/course",
@@ -50,12 +50,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/de/*/students",
+          "function": "seo-tool-account-students"
+        },
+        {
           "source": "/en/courses/*",
           "function": "seo-course"
         },
         {
           "source": "/en/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/en/*/course",
@@ -84,6 +88,10 @@
         {
           "source": "/en/*/courses",
           "function": "seo-courses"
+        },
+        {
+          "source": "/en/*/students",
+          "function": "seo-tool-account-students"
         },
         {
           "source": "/page-data/courses/*/page-data.json",
@@ -123,7 +131,11 @@
         },
         {
           "source": "/page-data/de/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/de/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/page-data/en/courses/*/page-data.json",
@@ -159,7 +171,11 @@
         },
         {
           "source": "/page-data/en/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/en/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/page-data/vi/courses/*/page-data.json",
@@ -195,7 +211,11 @@
         },
         {
           "source": "/page-data/vi/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/vi/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/page-data/*/course-create/page-data.json",
@@ -227,7 +247,11 @@
         },
         {
           "source": "/page-data/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/vi/courses/*",
@@ -235,7 +259,7 @@
         },
         {
           "source": "/vi/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/vi/*/course",
@@ -266,8 +290,12 @@
           "function": "seo-courses"
         },
         {
+          "source": "/vi/*/students",
+          "function": "seo-tool-account-students"
+        },
+        {
           "source": "/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/*/course",
@@ -296,6 +324,10 @@
         {
           "source": "/*/courses",
           "function": "seo-courses"
+        },
+        {
+          "source": "/*/students",
+          "function": "seo-tool-account-students"
         }
       ],
       "headers": [
@@ -427,7 +459,7 @@
         },
         {
           "source": "/de/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/de/*/course",
@@ -458,12 +490,16 @@
           "function": "seo-courses"
         },
         {
+          "source": "/de/*/students",
+          "function": "seo-tool-account-students"
+        },
+        {
           "source": "/en/courses/*",
           "function": "seo-course"
         },
         {
           "source": "/en/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/en/*/course",
@@ -492,6 +528,10 @@
         {
           "source": "/en/*/courses",
           "function": "seo-courses"
+        },
+        {
+          "source": "/en/*/students",
+          "function": "seo-tool-account-students"
         },
         {
           "source": "/page-data/courses/*/page-data.json",
@@ -531,7 +571,11 @@
         },
         {
           "source": "/page-data/de/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/de/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/page-data/en/courses/*/page-data.json",
@@ -567,7 +611,11 @@
         },
         {
           "source": "/page-data/en/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/en/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/page-data/vi/courses/*/page-data.json",
@@ -603,7 +651,11 @@
         },
         {
           "source": "/page-data/vi/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/vi/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/page-data/*/course-create/page-data.json",
@@ -635,7 +687,11 @@
         },
         {
           "source": "/page-data/*/page-data.json",
-          "function": "seo-tool-accountPageData"
+          "function": "seo-tool-account-detailPageData"
+        },
+        {
+          "source": "/page-data/*/students/page-data.json",
+          "function": "seo-tool-account-studentsPageData"
         },
         {
           "source": "/vi/courses/*",
@@ -643,7 +699,7 @@
         },
         {
           "source": "/vi/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/vi/*/course",
@@ -674,8 +730,12 @@
           "function": "seo-courses"
         },
         {
+          "source": "/vi/*/students",
+          "function": "seo-tool-account-students"
+        },
+        {
           "source": "/*",
-          "function": "seo-tool-account"
+          "function": "seo-tool-account-detail"
         },
         {
           "source": "/*/course",
@@ -704,6 +764,10 @@
         {
           "source": "/*/courses",
           "function": "seo-courses"
+        },
+        {
+          "source": "/*/students",
+          "function": "seo-tool-account-students"
         }
       ],
       "headers": [
