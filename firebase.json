@@ -47,7 +47,7 @@
         },
         {
           "source": "/de/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/de/*/student",
@@ -99,7 +99,7 @@
         },
         {
           "source": "/en/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/en/*/student",
@@ -151,7 +151,7 @@
         },
         {
           "source": "/page-data/de/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/de/*/page-data.json",
@@ -203,7 +203,7 @@
         },
         {
           "source": "/page-data/en/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/en/*/page-data.json",
@@ -255,7 +255,7 @@
         },
         {
           "source": "/page-data/vi/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/vi/*/page-data.json",
@@ -303,7 +303,7 @@
         },
         {
           "source": "/page-data/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/*/page-data.json",
@@ -359,7 +359,7 @@
         },
         {
           "source": "/vi/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/vi/*/student",
@@ -407,7 +407,7 @@
         },
         {
           "source": "/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/*/student",
@@ -583,7 +583,7 @@
         },
         {
           "source": "/de/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/de/*/student",
@@ -635,7 +635,7 @@
         },
         {
           "source": "/en/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/en/*/student",
@@ -687,7 +687,7 @@
         },
         {
           "source": "/page-data/de/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/de/*/page-data.json",
@@ -739,7 +739,7 @@
         },
         {
           "source": "/page-data/en/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/en/*/page-data.json",
@@ -791,7 +791,7 @@
         },
         {
           "source": "/page-data/vi/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/vi/*/page-data.json",
@@ -839,7 +839,7 @@
         },
         {
           "source": "/page-data/*/courses/page-data.json",
-          "function": "seo-coursesPageData"
+          "function": "seo-tool-account-coursesPageData"
         },
         {
           "source": "/page-data/*/page-data.json",
@@ -895,7 +895,7 @@
         },
         {
           "source": "/vi/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/vi/*/student",
@@ -943,7 +943,7 @@
         },
         {
           "source": "/*/courses",
-          "function": "seo-courses"
+          "function": "seo-tool-account-courses"
         },
         {
           "source": "/*/student",
