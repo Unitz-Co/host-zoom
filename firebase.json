@@ -23,23 +23,23 @@
         },
         {
           "source": "/de/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/de/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/de/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/de/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/de/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/de/*/course/use-template",
@@ -75,23 +75,23 @@
         },
         {
           "source": "/en/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/en/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/en/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/en/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/en/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/en/*/course/use-template",
@@ -126,24 +126,24 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/de/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/de/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/de/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/de/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/de/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/de/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/de/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/de/*/course/use-template/page-data.json",
@@ -178,24 +178,24 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/en/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/en/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/en/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/en/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/en/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/en/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/en/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/en/*/course/use-template/page-data.json",
@@ -230,24 +230,24 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/vi/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/vi/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/vi/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/vi/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/vi/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/vi/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/vi/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/vi/*/course/use-template/page-data.json",
@@ -278,24 +278,24 @@
           "function": "seo-tool-account-teachersPageData"
         },
         {
-          "source": "/page-data/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/*/course/use-template/page-data.json",
@@ -335,23 +335,23 @@
         },
         {
           "source": "/vi/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/vi/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/vi/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/vi/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/vi/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/vi/*/course/use-template",
@@ -383,23 +383,23 @@
         },
         {
           "source": "/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/*/course/use-template",
@@ -559,23 +559,23 @@
         },
         {
           "source": "/de/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/de/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/de/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/de/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/de/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/de/*/course/use-template",
@@ -611,23 +611,23 @@
         },
         {
           "source": "/en/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/en/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/en/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/en/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/en/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/en/*/course/use-template",
@@ -662,24 +662,24 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/de/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/de/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/de/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/de/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/de/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/de/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/de/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/de/*/course/use-template/page-data.json",
@@ -714,24 +714,24 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/en/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/en/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/en/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/en/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/en/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/en/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/en/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/en/*/course/use-template/page-data.json",
@@ -766,24 +766,24 @@
           "function": "seo-coursePageData"
         },
         {
-          "source": "/page-data/vi/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/vi/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/vi/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/vi/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/vi/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/vi/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/vi/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/vi/*/course/use-template/page-data.json",
@@ -814,24 +814,24 @@
           "function": "seo-tool-account-teachersPageData"
         },
         {
-          "source": "/page-data/*/course-create/page-data.json",
-          "function": "seo-tool-course-createPageData"
+          "source": "/page-data/*/course/create/page-data.json",
+          "function": "seo-tool-account-course-createPageData"
         },
         {
-          "source": "/page-data/*/course-created/page-data.json",
-          "function": "seo-course-createdPageData"
+          "source": "/page-data/*/course/created/page-data.json",
+          "function": "seo-tool-account-course-createdPageData"
         },
         {
           "source": "/page-data/*/course/edit/page-data.json",
-          "function": "seo-course-editPageData"
+          "function": "seo-tool-account-course-editPageData"
         },
         {
           "source": "/page-data/*/course/page-data.json",
-          "function": "seo-tool-course-detailPageData"
+          "function": "seo-tool-account-course-detailPageData"
         },
         {
           "source": "/page-data/*/course/pick-templates/page-data.json",
-          "function": "seo-course-pick-templatesPageData"
+          "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
           "source": "/page-data/*/course/use-template/page-data.json",
@@ -871,23 +871,23 @@
         },
         {
           "source": "/vi/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/vi/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/vi/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/vi/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/vi/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/vi/*/course/use-template",
@@ -919,23 +919,23 @@
         },
         {
           "source": "/*/course",
-          "function": "seo-tool-course-detail"
+          "function": "seo-tool-account-course-detail"
         },
         {
           "source": "/*/course/create",
-          "function": "seo-tool-course-create"
+          "function": "seo-tool-account-course-create"
         },
         {
           "source": "/*/course/created",
-          "function": "seo-course-created"
+          "function": "seo-tool-account-course-created"
         },
         {
           "source": "/*/course/edit",
-          "function": "seo-course-edit"
+          "function": "seo-tool-account-course-edit"
         },
         {
           "source": "/*/course/pick-templates",
-          "function": "seo-course-pick-templates"
+          "function": "seo-tool-account-course-pickTemplates"
         },
         {
           "source": "/*/course/use-template",

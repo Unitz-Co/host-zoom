@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/*/course/create",
-      "function": "seo-tool-course-create"
+      "function": "seo-tool-account-course-create"
     },
     {
-      "source": "/page-data/*/course-create/page-data.json",
-      "function": "seo-tool-course-createPageData"
+      "source": "/page-data/*/course/create/page-data.json",
+      "function": "seo-tool-account-course-createPageData"
     }
   ],
   "locales": ["en", "vi", "de"]
