@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/members",
+      "function": "seo-tool-account-members"
+    },
+    {
+      "source": "/page-data/*/members/page-data.json",
+      "function": "seo-tool-account-membersPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}
