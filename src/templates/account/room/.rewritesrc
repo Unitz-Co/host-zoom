@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/room",
+      "function": "seo-tool-account-room"
+    },
+    {
+      "source": "/page-data/*/room/page-data.json",
+      "function": "seo-tool-account-roomPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

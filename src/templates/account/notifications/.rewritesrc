@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/notifications",
+      "function": "seo-tool-account-notifications"
+    },
+    {
+      "source": "/page-data/*/notifications/page-data.json",
+      "function": "seo-tool-account-notificationsPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

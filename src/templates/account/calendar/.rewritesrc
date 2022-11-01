@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/calendar",
+      "function": "seo-tool-account-calendar"
+    },
+    {
+      "source": "/page-data/*/calendar/page-data.json",
+      "function": "seo-tool-account-calendarPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}
