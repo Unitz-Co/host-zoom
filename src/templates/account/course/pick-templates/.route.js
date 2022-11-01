@@ -14,9 +14,9 @@ routeStore.addRule('toolAccountCoursePickTemplates', {
       return `/${accountSlug}/course/pick-templates${queryString}`;
     }
     if(accountId) {
-      return `/account/course/pick_templates${queryString}`;
+      return `/account/course/pick-templates${queryString}`;
     }
-    return `/accounts/me/course/use-templates${queryString}`;
+    return `/accounts/me/course/pick-templates${queryString}`;
   },
   parse: (urlObject) => {
     const params = {};
