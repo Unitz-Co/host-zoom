@@ -14,7 +14,7 @@ routeStore.addRule('toolAccountCourseTemplateCreate', {
       return `/${accountSlug}/course-template/create${queryString}`;
     }
     if(accountId) {
-      return `/account/course-templates/create${queryString}`;
+      return `/account/course-template/create${queryString}`;
     }
     return `/accounts/me/course-template/create${queryString}`;
   },

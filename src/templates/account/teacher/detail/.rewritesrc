@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/teacher",
+      "function": "seo-tool-account-teacher"
+    },
+    {
+      "source": "/page-data/*/teacher/page-data.json",
+      "function": "seo-tool-account-teacherPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

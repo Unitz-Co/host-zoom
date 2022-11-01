@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/course-template/edit",
+      "function": "seo-tool-account-courseTemplate-edit"
+    },
+    {
+      "source": "/page-data/*/course-template/edit/page-data.json",
+      "function": "seo-tool-account-courseTemplate-editPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

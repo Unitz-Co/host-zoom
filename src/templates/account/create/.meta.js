@@ -23,7 +23,6 @@ exports.createPages = withLocale(async function(item, gatsby) {
           ...accountData.account_profile,
         },
       };
-
       const accountSlug = routeStore.toUrl('toolCreateAccount', account);
       const accountPath = localeConfig.langSlug(path.join('/', accountSlug));
       console.log('creating page', accountPath);

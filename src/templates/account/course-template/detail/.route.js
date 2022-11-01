@@ -12,7 +12,7 @@ routeStore.addRule('toolAccountCourseTemplateDetail', {
       return `/${accountSlug}/course-template${queryString}`;
     }
     if(accountId) {
-      return `/account/course-templates${queryString}`;
+      return `/account/course-template${queryString}`;
     }
     return `/accounts/me/course-template/detail${queryString}`;
   },

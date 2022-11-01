@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/course/pick-templates",
+      "function": "seo-tool-account-course-pickTemplates"
+    },
+    {
+      "source": "/page-data/*/course/pick-templates/page-data.json",
+      "function": "seo-tool-account-course-pickTemplatesPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}
