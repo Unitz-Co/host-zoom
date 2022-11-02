@@ -5,7 +5,7 @@ const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountCourseTemplateCreate', {
   url: (params, ctx) => {
-    if(!ACL.can('add_course_template')) return null;
+    if(!ACL.can('add_course')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     const accountSlug = _.get(accountParams, 'slug');
     let accountId = _.get(getGbRoute().getParams(), 'accountId');
