@@ -78,6 +78,10 @@
           "function": "seo-tool-account-members"
         },
         {
+          "source": "/de/*/my-account",
+          "function": "seo-tool-account-myAccount"
+        },
+        {
           "source": "/de/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -196,6 +200,10 @@
         {
           "source": "/en/*/members",
           "function": "seo-tool-account-members"
+        },
+        {
+          "source": "/en/*/my-account",
+          "function": "seo-tool-account-myAccount"
         },
         {
           "source": "/en/*/notifications",
@@ -318,6 +326,10 @@
           "function": "seo-tool-account-membersPageData"
         },
         {
+          "source": "/page-data/de/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
+        },
+        {
           "source": "/page-data/de/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -436,6 +448,10 @@
         {
           "source": "/page-data/en/*/members/page-data.json",
           "function": "seo-tool-account-membersPageData"
+        },
+        {
+          "source": "/page-data/en/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
@@ -558,6 +574,10 @@
           "function": "seo-tool-account-membersPageData"
         },
         {
+          "source": "/page-data/vi/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
+        },
+        {
           "source": "/page-data/vi/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -672,6 +692,10 @@
         {
           "source": "/page-data/*/members/page-data.json",
           "function": "seo-tool-account-membersPageData"
+        },
+        {
+          "source": "/page-data/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
@@ -798,6 +822,10 @@
           "function": "seo-tool-account-members"
         },
         {
+          "source": "/vi/*/my-account",
+          "function": "seo-tool-account-myAccount"
+        },
+        {
           "source": "/vi/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -912,6 +940,10 @@
         {
           "source": "/*/members",
           "function": "seo-tool-account-members"
+        },
+        {
+          "source": "/*/my-account",
+          "function": "seo-tool-account-myAccount"
         },
         {
           "source": "/*/notifications",
@@ -1158,6 +1190,10 @@
           "function": "seo-tool-account-members"
         },
         {
+          "source": "/de/*/my-account",
+          "function": "seo-tool-account-myAccount"
+        },
+        {
           "source": "/de/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -1276,6 +1312,10 @@
         {
           "source": "/en/*/members",
           "function": "seo-tool-account-members"
+        },
+        {
+          "source": "/en/*/my-account",
+          "function": "seo-tool-account-myAccount"
         },
         {
           "source": "/en/*/notifications",
@@ -1398,6 +1438,10 @@
           "function": "seo-tool-account-membersPageData"
         },
         {
+          "source": "/page-data/de/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
+        },
+        {
           "source": "/page-data/de/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -1516,6 +1560,10 @@
         {
           "source": "/page-data/en/*/members/page-data.json",
           "function": "seo-tool-account-membersPageData"
+        },
+        {
+          "source": "/page-data/en/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
@@ -1638,6 +1686,10 @@
           "function": "seo-tool-account-membersPageData"
         },
         {
+          "source": "/page-data/vi/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
+        },
+        {
           "source": "/page-data/vi/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -1752,6 +1804,10 @@
         {
           "source": "/page-data/*/members/page-data.json",
           "function": "seo-tool-account-membersPageData"
+        },
+        {
+          "source": "/page-data/*/my-account/page-data.json",
+          "function": "seo-tool-account-myAccountPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
@@ -1878,6 +1934,10 @@
           "function": "seo-tool-account-members"
         },
         {
+          "source": "/vi/*/my-account",
+          "function": "seo-tool-account-myAccount"
+        },
+        {
           "source": "/vi/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -1992,6 +2052,10 @@
         {
           "source": "/*/members",
           "function": "seo-tool-account-members"
+        },
+        {
+          "source": "/*/my-account",
+          "function": "seo-tool-account-myAccount"
         },
         {
           "source": "/*/notifications",
