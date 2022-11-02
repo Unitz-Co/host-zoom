@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/program-template/created",
+      "function": "seo-tool-account-programTemplate-created"
+    },
+    {
+      "source": "/page-data/*/program-template/created/page-data.json",
+      "function": "seo-tool-account-programTemplate-createdPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}
