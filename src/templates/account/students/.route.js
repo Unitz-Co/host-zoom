@@ -15,7 +15,7 @@ routeStore.addRule('toolAccountStudents', {
     if(accountId) {
       return `/account/students${queryString}`;
     }
-    return `/accounts/me/student`;
+    return `${getGbRoute().getDefaultAccountRoute('/students')}`;
   },
   parse: (urlObject) => {
     const params = {};
