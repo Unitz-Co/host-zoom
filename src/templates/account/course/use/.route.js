@@ -9,13 +9,13 @@ routeStore.addRule('toolAccountCourseUseTemplate', {
     let accountId = _.get(getGbRoute().getParams(), 'accountId');
     const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
-      return `/${accountSlug}/course/use-template${queryString}`;
+      return `/${accountSlug}/course/use-template{queryString}`;
     }
     if(accountId) {
       return `/account/course/use-template${queryString}`;
     }
-
     return `/accounts/me/course/use-template${queryString}`;
+  },
   },
   parse: (urlObject) => {
     const params = {};
