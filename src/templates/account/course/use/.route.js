@@ -16,7 +16,6 @@ routeStore.addRule('toolAccountCourseUseTemplate', {
     }
     return `/accounts/me/course/use-template${queryString}`;
   },
-  },
   parse: (urlObject) => {
     const params = {};
     for (let param in urlObject.searchParams) {
