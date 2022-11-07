@@ -15,7 +15,7 @@ routeStore.addRule('toolAccountCalendar', {
     if(accountId) {
       return `/account/calendar${queryString}`;
     }
-    return `/accounts/me/calendar`;
+    return `${getGbRoute().getDefaultAccountRoute(`/calendar${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

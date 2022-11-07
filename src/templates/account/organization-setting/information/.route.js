@@ -14,7 +14,7 @@ routeStore.addRule('toolAccountEdit', {
     if(accountId) {
       return `/account/settings/edit${queryString}`;
     }
-    return `/accounts/me/settings/edit${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/settings/edit${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

@@ -16,7 +16,7 @@ routeStore.addRule('toolAccountCoursePickTemplates', {
     if(accountId) {
       return `/account/course/pick-templates${queryString}`;
     }
-    return `/accounts/me/course/pick-templates${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/course/pick-templates${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

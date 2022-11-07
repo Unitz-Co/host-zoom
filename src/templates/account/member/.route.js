@@ -16,7 +16,7 @@ routeStore.addRule('toolAccountMember', {
     if(accountId) {
       return `/account/members${queryString}`;
     }
-    return `/accounts/me/members`;
+    return `${getGbRoute().getDefaultAccountRoute(`/members${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

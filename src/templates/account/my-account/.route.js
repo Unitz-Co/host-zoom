@@ -14,7 +14,7 @@ routeStore.addRule('toolAccountMyAccount', {
     if (slug) {
       return `/${slug}/my-account${queryString}`;
     }
-    return `/accounts/me/my-account${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/my-account${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

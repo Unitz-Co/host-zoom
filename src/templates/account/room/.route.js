@@ -14,7 +14,7 @@ routeStore.addRule('toolAccountRoomDetail', {
     if(accountId) {
       return `/account/room${queryString}`;
     }
-    return `/accounts/me/room${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/room${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};
