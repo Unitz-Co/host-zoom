@@ -12,6 +12,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
   // return [];
   const localeConfig = this;
   const accounts = await getAllAccounts();
+  accounts.push({ slug: 'me' });
 
   return Promise.all(
     accounts.map((accountData) => {
