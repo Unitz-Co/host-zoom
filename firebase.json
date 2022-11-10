@@ -82,6 +82,10 @@
           "function": "seo-tool-account-myAccount"
         },
         {
+          "source": "/de/*/notification",
+          "function": "seo-tool-account-notifications"
+        },
+        {
           "source": "/de/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -204,6 +208,10 @@
         {
           "source": "/en/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/en/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/en/*/notifications",
@@ -330,6 +338,10 @@
           "function": "seo-tool-account-myAccountPageData"
         },
         {
+          "source": "/page-data/de/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
+        },
+        {
           "source": "/page-data/de/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -452,6 +464,10 @@
         {
           "source": "/page-data/en/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/en/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
@@ -578,6 +594,10 @@
           "function": "seo-tool-account-myAccountPageData"
         },
         {
+          "source": "/page-data/vi/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
+        },
+        {
           "source": "/page-data/vi/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -696,6 +716,10 @@
         {
           "source": "/page-data/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
@@ -826,6 +850,10 @@
           "function": "seo-tool-account-myAccount"
         },
         {
+          "source": "/vi/*/notification",
+          "function": "seo-tool-account-notifications"
+        },
+        {
           "source": "/vi/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -944,6 +972,10 @@
         {
           "source": "/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/*/notifications",
@@ -1194,6 +1226,10 @@
           "function": "seo-tool-account-myAccount"
         },
         {
+          "source": "/de/*/notification",
+          "function": "seo-tool-account-notifications"
+        },
+        {
           "source": "/de/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -1316,6 +1352,10 @@
         {
           "source": "/en/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/en/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/en/*/notifications",
@@ -1442,6 +1482,10 @@
           "function": "seo-tool-account-myAccountPageData"
         },
         {
+          "source": "/page-data/de/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
+        },
+        {
           "source": "/page-data/de/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -1564,6 +1608,10 @@
         {
           "source": "/page-data/en/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/en/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
@@ -1690,6 +1738,10 @@
           "function": "seo-tool-account-myAccountPageData"
         },
         {
+          "source": "/page-data/vi/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
+        },
+        {
           "source": "/page-data/vi/*/notifications/page-data.json",
           "function": "seo-tool-account-notificationsPageData"
         },
@@ -1808,6 +1860,10 @@
         {
           "source": "/page-data/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
@@ -1938,6 +1994,10 @@
           "function": "seo-tool-account-myAccount"
         },
         {
+          "source": "/vi/*/notification",
+          "function": "seo-tool-account-notifications"
+        },
+        {
           "source": "/vi/*/notifications",
           "function": "seo-tool-account-notifications"
         },
@@ -2056,6 +2116,10 @@
         {
           "source": "/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/*/notifications",
