@@ -8,7 +8,7 @@ routeStore.addRule('toolAccountCourses', {
     if(!ACL.can('view_course')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     let accountId = _.get(getGbRoute().getParams(), 'accountId');
-    const queryString = routeStore.queryString({ accountId });
+    const queryString = routeStore.queryString({ accountId, ..._.pick(params, ['search', 'status']) });
     const accountSlug = _.get(accountParams, 'slug');
     if (accountSlug) {
       return `/${accountSlug}/courses${queryString}`;
