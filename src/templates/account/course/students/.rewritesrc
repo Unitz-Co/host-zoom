@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/*/course/students",
+      "function": "seo-tool-account-course-students"
+    },
+    {
+      "source": "/page-data/*/course/students/page-data.json",
+      "function": "seo-tool-account-course-studentsPageData"
+    }
+  ],
+  "locales": ["en", "vi", "de"]
+}

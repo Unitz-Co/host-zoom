@@ -66,6 +66,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/de/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/de/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/de/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/de/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -192,6 +204,18 @@
         {
           "source": "/en/*/course/pick-templates",
           "function": "seo-tool-account-course-pickTemplates"
+        },
+        {
+          "source": "/en/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/en/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/en/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
         },
         {
           "source": "/en/*/course/use-template",
@@ -322,6 +346,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/de/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/de/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -448,6 +484,18 @@
         {
           "source": "/page-data/en/*/course/pick-templates/page-data.json",
           "function": "seo-tool-account-course-pickTemplatesPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
         },
         {
           "source": "/page-data/en/*/course/use-template/page-data.json",
@@ -578,6 +626,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/vi/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/vi/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -700,6 +760,18 @@
         {
           "source": "/page-data/*/course/pick-templates/page-data.json",
           "function": "seo-tool-account-course-pickTemplatesPageData"
+        },
+        {
+          "source": "/page-data/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
         },
         {
           "source": "/page-data/*/course/use-template/page-data.json",
@@ -834,6 +906,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/vi/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/vi/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/vi/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/vi/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -956,6 +1040,18 @@
         {
           "source": "/*/course/pick-templates",
           "function": "seo-tool-account-course-pickTemplates"
+        },
+        {
+          "source": "/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
         },
         {
           "source": "/*/course/use-template",
@@ -1210,6 +1306,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/de/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/de/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/de/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/de/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -1336,6 +1444,18 @@
         {
           "source": "/en/*/course/pick-templates",
           "function": "seo-tool-account-course-pickTemplates"
+        },
+        {
+          "source": "/en/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/en/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/en/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
         },
         {
           "source": "/en/*/course/use-template",
@@ -1466,6 +1586,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/de/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/de/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -1592,6 +1724,18 @@
         {
           "source": "/page-data/en/*/course/pick-templates/page-data.json",
           "function": "seo-tool-account-course-pickTemplatesPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
         },
         {
           "source": "/page-data/en/*/course/use-template/page-data.json",
@@ -1722,6 +1866,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/vi/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/vi/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -1844,6 +2000,18 @@
         {
           "source": "/page-data/*/course/pick-templates/page-data.json",
           "function": "seo-tool-account-course-pickTemplatesPageData"
+        },
+        {
+          "source": "/page-data/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
         },
         {
           "source": "/page-data/*/course/use-template/page-data.json",
@@ -1978,6 +2146,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/vi/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/vi/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/vi/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/vi/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -2100,6 +2280,18 @@
         {
           "source": "/*/course/pick-templates",
           "function": "seo-tool-account-course-pickTemplates"
+        },
+        {
+          "source": "/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
         },
         {
           "source": "/*/course/use-template",
