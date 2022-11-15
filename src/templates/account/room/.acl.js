@@ -4,50 +4,48 @@ const { ACL } = require('@vl/mod-utils/ACL');
 const hasuraClient = require('@vl/mod-clients/hasuraApp');
 const { flattenGet } = require('@vl/mod-utils/flattenGet');
 
-const getTargetData = _.memoize(async () => {
-  const client = hasuraClient.getClient();
-  const route = getGbRoute();
-  const routeParams = route.getParams();
-  const room_id = _.get(routeParams, 'id');
-  const targetData = await client.request(hasuraClient.gql`
-    query {
-      course_room: b2b_course_room_by_pk(id: "${room_id}") {
-        course_id
-        course {
-          course_teacher {
-            role
-            user_id
-            member {
-              id
-              member_profile {
-                first_name
-                last_name
-                email
-                avatar_url
+ACL.extends({ room: {
+  ACL,
+  async target() {
+    const route = getGbRoute();
+    const routeParams = route.getParams();
+    const room_id = _.get(routeParams, 'id');
+    const query = `
+      query ($room_id: uuid!){
+        course_room: b2b_course_room_by_pk(id: $room_id) {
+          course_id
+          course {
+            course_teacher {
+              role
+              user_id
+              member {
+                id
+                member_profile {
+                  first_name
+                  last_name
+                  email
+                  avatar_url
+                }
               }
             }
-          }
-          course_room_attendees {
-            user_id
-            member {
-              id
-              member_profile {
-                first_name
-                last_name
-                email
+            course_room_attendees {
+              user_id
+              member {
+                id
+                member_profile {
+                  first_name
+                  last_name
+                  email
+                }
               }
             }
           }
         }
       }
-    }
-  `);
-  return targetData;
-});
-
-ACL.extends({ room: {
-  ACL,
-  target: () => getTargetData(),
+    `;
+    const targetData = await hasuraClient.getClient().watch(query, { room_id });
+    return targetData;  
+  },
   async isTeacher() {
     const data = await this.target();
     const userId = await this.ACL.getUserId();
@@ -69,8 +67,8 @@ ACL.extends({ room: {
     return isRoomMember;
   },
   async isAdmin() {
-    const isRoomAdmin = await this.ACL.checkAccess('edit_course');
     // const isRoomAdmin = false;
+    const isRoomAdmin = await this.ACL.checkAccess('edit_course');
     return isRoomAdmin;
   },
 } });
