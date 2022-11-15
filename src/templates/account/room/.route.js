@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
+const { ACL } = require('@vl/mod-utils/ACL');
 
 routeStore.addRule('toolAccountRoomDetail', {
   url: (params, ctx) => {
@@ -26,4 +27,13 @@ routeStore.addRule('toolAccountRoomDetail', {
   match: (urlObject) => {
     return urlObject.pathname === 'account/room';
   },
+});
+
+ACL.addRule('view_room', () => {
+  const route = getGbRoute();
+  const pageContext = route.getPageContext();
+  const routeParams = route.getParams();
+  const room_id = _.get(routeParams, 'id');
+  // console.log('room_idroom_id', routeParams, room_id, pageContext);
+  return true;
 });
