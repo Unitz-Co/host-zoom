@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
+require('./.acl');
 
 routeStore.addRule('toolAccountRoomDetail', {
   url: (params, ctx) => {
@@ -14,7 +15,7 @@ routeStore.addRule('toolAccountRoomDetail', {
     if(accountId) {
       return `/account/room${queryString}`;
     }
-    return `/accounts/me/room${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/room${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

@@ -14,8 +14,7 @@ routeStore.addRule('toolAccountCourseUseTemplate', {
     if(accountId) {
       return `/account/course/use-template${queryString}`;
     }
-
-    return `/accounts/me/course/use-template${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/course/use-template${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

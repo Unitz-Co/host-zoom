@@ -66,6 +66,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/de/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/de/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/de/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/de/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -80,6 +92,10 @@
         {
           "source": "/de/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/de/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/de/*/notifications",
@@ -190,6 +206,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/en/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/en/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/en/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/en/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -204,6 +232,10 @@
         {
           "source": "/en/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/en/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/en/*/notifications",
@@ -314,6 +346,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/de/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/de/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -328,6 +372,10 @@
         {
           "source": "/page-data/de/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/de/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/de/*/notifications/page-data.json",
@@ -438,6 +486,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/en/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/en/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -452,6 +512,10 @@
         {
           "source": "/page-data/en/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/en/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
@@ -562,6 +626,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/vi/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/vi/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -576,6 +652,10 @@
         {
           "source": "/page-data/vi/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/vi/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/vi/*/notifications/page-data.json",
@@ -682,6 +762,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -696,6 +788,10 @@
         {
           "source": "/page-data/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
@@ -810,6 +906,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/vi/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/vi/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/vi/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/vi/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -824,6 +932,10 @@
         {
           "source": "/vi/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/vi/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/vi/*/notifications",
@@ -930,6 +1042,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -944,6 +1068,10 @@
         {
           "source": "/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/*/notifications",
@@ -1178,6 +1306,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/de/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/de/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/de/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/de/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -1192,6 +1332,10 @@
         {
           "source": "/de/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/de/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/de/*/notifications",
@@ -1302,6 +1446,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/en/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/en/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/en/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/en/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -1316,6 +1472,10 @@
         {
           "source": "/en/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/en/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/en/*/notifications",
@@ -1426,6 +1586,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/de/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/de/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/de/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -1440,6 +1612,10 @@
         {
           "source": "/page-data/de/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/de/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/de/*/notifications/page-data.json",
@@ -1550,6 +1726,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/en/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/en/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/en/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -1564,6 +1752,10 @@
         {
           "source": "/page-data/en/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/en/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
@@ -1674,6 +1866,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/vi/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/vi/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/vi/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -1688,6 +1892,10 @@
         {
           "source": "/page-data/vi/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/vi/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/vi/*/notifications/page-data.json",
@@ -1794,6 +2002,18 @@
           "function": "seo-tool-account-course-pickTemplatesPageData"
         },
         {
+          "source": "/page-data/*/course/reports/page-data.json",
+          "function": "seo-tool-account-course-reportsPageData"
+        },
+        {
+          "source": "/page-data/*/course/students/page-data.json",
+          "function": "seo-tool-account-course-studentsPageData"
+        },
+        {
+          "source": "/page-data/*/course/teachers/page-data.json",
+          "function": "seo-tool-account-course-teachersPageData"
+        },
+        {
           "source": "/page-data/*/course/use-template/page-data.json",
           "function": "seo-tool-account-course-useTemplatePageData"
         },
@@ -1808,6 +2028,10 @@
         {
           "source": "/page-data/*/my-account/page-data.json",
           "function": "seo-tool-account-myAccountPageData"
+        },
+        {
+          "source": "/page-data/*/notification/page-data.json",
+          "function": "seo-tool-account-notificationsPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
@@ -1922,6 +2146,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/vi/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/vi/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/vi/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/vi/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -1936,6 +2172,10 @@
         {
           "source": "/vi/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/vi/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/vi/*/notifications",
@@ -2042,6 +2282,18 @@
           "function": "seo-tool-account-course-pickTemplates"
         },
         {
+          "source": "/*/course/reports",
+          "function": "seo-tool-account-course-reports"
+        },
+        {
+          "source": "/*/course/students",
+          "function": "seo-tool-account-course-students"
+        },
+        {
+          "source": "/*/course/teachers",
+          "function": "seo-tool-account-course-teachers"
+        },
+        {
           "source": "/*/course/use-template",
           "function": "seo-tool-account-course-useTemplate"
         },
@@ -2056,6 +2308,10 @@
         {
           "source": "/*/my-account",
           "function": "seo-tool-account-myAccount"
+        },
+        {
+          "source": "/*/notification",
+          "function": "seo-tool-account-notifications"
         },
         {
           "source": "/*/notifications",

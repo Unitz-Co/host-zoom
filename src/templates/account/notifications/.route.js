@@ -15,7 +15,7 @@ routeStore.addRule('toolAccountNotification', {
     if(accountId) {
       return `/account/notifications${queryString}`;
     }
-    return `/accounts/me/notifications`;
+    return `${getGbRoute().getDefaultAccountRoute(`/notifications${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

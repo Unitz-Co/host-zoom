@@ -12,6 +12,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
   // return [];
   const localeConfig = this;
   const accounts = await getAllAccounts();
+  accounts.push({ slug: 'me' });
 
   return Promise.all(
     accounts.map((accountData) => {
@@ -28,7 +29,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
       const accountPath = localeConfig.langSlug(path.join('/', accountSlug));
       console.log('creating page', accountPath);
       const pageContext = _.cloneDeep({
-        id: accountId,
+        aid: accountId,
         accountId,
         slug: accountSlug,
         lang: localeConfig.get('lang'),

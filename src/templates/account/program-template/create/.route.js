@@ -16,7 +16,7 @@ routeStore.addRule('toolAccountProgramTemplateCreate', {
     if(accountId) {
       return `/account/program-template/create${queryString}`;
     }
-    return `/accounts/me/program-template/create${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/program-template/create${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

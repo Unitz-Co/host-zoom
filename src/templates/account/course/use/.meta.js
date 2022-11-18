@@ -28,10 +28,11 @@ exports.createPages = withLocale(async function(item, gatsby) {
       const accountPath = localeConfig.langSlug(path.join('/', accountSlug));
       console.log('creating page', accountPath);
       const pageContext = _.cloneDeep({
-        id: accountId,
+        aid: accountId,
         accountId,
         slug: accountSlug,
         lang: localeConfig.get('lang'),
+        permissions: ['add_course'],
         params: {
           ..._.omit(account, ['id']),
           accountId,

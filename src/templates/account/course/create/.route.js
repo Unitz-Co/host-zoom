@@ -16,7 +16,7 @@ routeStore.addRule('toolAccountCourseCreate', {
     if(accountId) {
       return `/account/course/create${queryString}`;
     }
-    return `/accounts/course/create${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/course/create${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};

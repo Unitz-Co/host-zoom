@@ -14,7 +14,7 @@ routeStore.addRule('toolAccountCourseTemplateEdit', {
     if(accountId) {
       return `/account/course-templates/edit${queryString}`;
     }
-    return `/accounts/me/course-template/edit${queryString}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/course-template/edit${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};
