@@ -79,6 +79,5 @@ ACL.addRule('view_room', async () => {
   const isRoomMember = await ACL.room.isMember();
   const isRoomAdmin = await ACL.room.isAdmin();
   const check = _.some([isRoomMember, isRoomAttendee, isRoomTeacher, isRoomAdmin]);
-  // console.log({ check, userId, isRoomMember, isRoomAttendee, isRoomTeacher, isRoomAdmin });
   return check;
 });
