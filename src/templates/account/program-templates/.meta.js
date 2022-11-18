@@ -32,7 +32,7 @@ exports.createPages = withLocale(async function(item, gatsby) {
         accountId,
         slug: accountSlug,
         lang: localeConfig.get('lang'),
-        permissions: ['view_program_template'],
+        permissions: ['add_program', 'view_program_template'],
         params: {
           ...account,
         },
