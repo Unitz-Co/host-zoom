@@ -19,11 +19,11 @@ const LoginIndex = withPageContext((props) => {
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'AuthPage' })} />
-          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'authNavbarSection' })}</Layout.POS>
+          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'HomeBizNavbarSection' })}</Layout.POS>
           <Layout.POS name="app-body">
             <LoginPage />
           </Layout.POS>
-          <Layout.POS name="app-footer">{ctx.apply('ctf.renderSection', { name: 'authFooterSection' })}</Layout.POS>
+          <Layout.POS name="app-footer">{ctx.apply('ctf.renderSection', { name: 'AuthBizFooterSection' })}</Layout.POS>
         </DIV>
       </Layout>
     </App>

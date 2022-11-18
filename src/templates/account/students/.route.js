@@ -1,9 +1,11 @@
 const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
+const { ACL } = require('@vl/mod-utils/ACL');
 
 routeStore.addRule('toolAccountStudents', {
   url: (params) => {
+    if (!ACL.can('view_member')) return null;
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
@@ -12,7 +14,7 @@ routeStore.addRule('toolAccountStudents', {
     if (slug) {
       return `/${slug}/students${queryString}`;
     }
-    if(accountId) {
+    if (accountId) {
       return `/account/students${queryString}`;
     }
     return `${getGbRoute().getDefaultAccountRoute(`/students${queryString}`)}`;
