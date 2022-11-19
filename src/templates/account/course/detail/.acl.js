@@ -6,10 +6,20 @@ const { flattenGet } = require('@vl/mod-utils/flattenGet');
 
 ACL.extends({ course: {
   ACL,
-  async target() {
-    const route = getGbRoute();
-    const routeParams = route.getParams();
-    const course_id = _.get(routeParams, 'id');
+  async target(target) {
+    let course_id;
+    if(_.isString(target) || _.isNumber(target)) {
+      course_id = target;
+    }
+    if(!course_id) {
+      course_id = _.get(target, 'id');
+    }
+    if(!course_id) {
+      const route = getGbRoute();
+      const routeParams = route.getParams();
+      course_id = _.get(routeParams, 'id');
+    }
+
     const query = `
       query ($course_id: uuid!){
         course: b2b_course_by_pk(id: $course_id) {
@@ -42,29 +52,29 @@ ACL.extends({ course: {
       }
     `;
     const targetData = await hasuraClient.getClient().watch(query, { course_id });
-    return targetData;  
+    return targetData;
   },
-  async isTeacher() {
-    const data = await this.target();
+  async isTeacher(...args) {
+    const data = await this.target(...args);
     const userId = await this.ACL.getUserId();
     const teachers = flattenGet(data, 'course.course_teacher.user_id');
     const isCourseTeacher = userId && teachers.includes(userId);
     return isCourseTeacher;
   },
-  async isAttendee() {
-    const data = await this.target();
+  async isAttendee(...args) {
+    const data = await this.target(...args);
     const userId = await this.ACL.getUserId();
     const attendees = flattenGet(data, 'course.course_course_attendees.user_id');
     const isCourseAttendee = userId && attendees.includes(userId);
     return isCourseAttendee;
   },
-  async isMember() {
-    const isCourseAttendee = await this.isAttendee();
-    const isCourseTeacher = await this.isTeacher();
+  async isMember(...args) {
+    const isCourseAttendee = await this.isAttendee(...args);
+    const isCourseTeacher = await this.isTeacher(...args);
     const isCourseMember = isCourseAttendee || isCourseTeacher;
     return isCourseMember;
   },
-  async isAdmin() {
+  async isAdmin(...args) {
     // const isCourseAdmin = false;
     const isCourseAdmin = await this.ACL.checkAccess('edit_course');
     return isCourseAdmin;
