@@ -2,6 +2,7 @@ const _ = require('lodash');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { ACL } = require('@vl/mod-utils/ACL');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
+require('./.acl');
 
 routeStore.addRule('toolAccountCourseDetail', {
   url: (params, ctx) => {
