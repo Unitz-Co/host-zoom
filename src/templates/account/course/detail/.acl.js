@@ -77,6 +77,7 @@ ACL.extends({ course: {
   async isAdmin(...args) {
     // const isCourseAdmin = false;
     const isCourseAdmin = await this.ACL.checkAccess('edit_course');
+    console.log({ isCourseAdmin });
     return isCourseAdmin;
   },
 } });
