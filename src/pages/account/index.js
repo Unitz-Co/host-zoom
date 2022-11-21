@@ -19,7 +19,7 @@ const HomePageIdx = withPageContext((props) => {
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'Homepage' })} />
-          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS>
+          <Layout.POS name="app-header"><Navbar /></Layout.POS>
           <Layout.POS name="app-body">
             <HomePage />
           </Layout.POS>
