@@ -5,13 +5,13 @@ import DIV from '@vl/redata/DIV.macro';
 import displayName from '@vl/redata/displayName.macro';
 
 import HomePage from '@uz/unitz-pages/CFHomeZoomPage';
-import withPageContext from '@uz/unitz-tool-pages/withPageContext';;
+import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import App from '@uz/unitz-app-web/ToolApp';
 
 import Layout from '@uz/unitz-layout-web/LayoutZoom';
 import SEO from '@uz/unitz-layout-web/SEO';
 import { Button } from '@uz/unitz-components-web/Button';
-
+import Navbar from '@uz/unitz-tool-components/Navbar';
 import PageData from '../data/PageDataQuery';
 import '../styles/styles.css';
 
@@ -21,7 +21,9 @@ const ZoomIndex = withPageContext((props) => {
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'HomePageLanding' })} />
-          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS>
+          <Layout.POS name="app-header">
+            <Navbar />
+          </Layout.POS>
           <Layout.POS name="app-body">
             <div className="px-2">
               <a
