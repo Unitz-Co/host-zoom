@@ -6,10 +6,20 @@ const { flattenGet } = require('@vl/mod-utils/flattenGet');
 
 ACL.extends({ room: {
   ACL,
-  async target() {
-    const route = getGbRoute();
-    const routeParams = route.getParams();
-    const room_id = _.get(routeParams, 'id');
+  async target(target) {
+    let room_id;
+    if(_.isString(target) || _.isNumber(target)) {
+      room_id = target;
+    }
+    if(!room_id) {
+      room_id = _.get(target, 'id');
+    }
+    if(!room_id) {
+      const route = getGbRoute();
+      const routeParams = route.getParams();
+      room_id = _.get(routeParams, 'id');
+    }
+
     const query = `
       query ($room_id: uuid!){
         course_room: b2b_course_room_by_pk(id: $room_id) {
@@ -46,27 +56,32 @@ ACL.extends({ room: {
     const targetData = await hasuraClient.getClient().watch(query, { room_id });
     return targetData;  
   },
-  async isTeacher() {
-    const data = await this.target();
+  async isTeacher(...args) {
+    const data = await this.target(...args);
     const userId = await this.ACL.getUserId();
     const teachers = flattenGet(data, 'course_room.course.course_teacher.user_id');
     const isRoomTeacher = userId && teachers.includes(userId);
     return isRoomTeacher;
   },
-  async isAttendee() {
-    const data = await this.target();
+  async isAttendee(...args) {
+    const data = await this.target(...args);
     const userId = await this.ACL.getUserId();
     const attendees = flattenGet(data, 'course_room.course.course_room_attendees.user_id');
     const isRoomAttendee = userId && attendees.includes(userId);
     return isRoomAttendee;
   },
-  async isMember() {
-    const isRoomAttendee = await this.isAttendee();
-    const isRoomTeacher = await this.isTeacher();
+  async isMember(...args) {
+    const isRoomAttendee = await this.isAttendee(...args);
+    const isRoomTeacher = await this.isTeacher(...args);
     const isRoomMember = isRoomAttendee || isRoomTeacher;
     return isRoomMember;
   },
-  async isAdmin() {
+  async isAdmin(...args) {
+    // const isRoomAdmin = false;
+    const isRoomAdmin = await this.ACL.checkAccess('edit_course');
+    return isRoomAdmin;
+  },
+  async canView(...args) {
     // const isRoomAdmin = false;
     const isRoomAdmin = await this.ACL.checkAccess('edit_course');
     return isRoomAdmin;
@@ -79,6 +94,5 @@ ACL.addRule('view_room', async () => {
   const isRoomMember = await ACL.room.isMember();
   const isRoomAdmin = await ACL.room.isAdmin();
   const check = _.some([isRoomMember, isRoomAttendee, isRoomTeacher, isRoomAdmin]);
-  // console.log({ check, userId, isRoomMember, isRoomAttendee, isRoomTeacher, isRoomAdmin });
   return check;
 });
