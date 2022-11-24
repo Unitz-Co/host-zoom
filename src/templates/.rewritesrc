@@ -3,6 +3,10 @@
     {
       "source": "/files/remote-config/IANWeb/templates/*.json",
       "function": "files-remoteConfig-get"
+    },
+    {
+      "source": "/files/remote-config/IANMobile/templates/*.json",
+      "function": "files-remoteConfig-get"
     }
   ],
   "locales": ["en", "vi", "de"]
