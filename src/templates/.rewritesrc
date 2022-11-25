@@ -5,6 +5,10 @@
       "function": "files-remoteConfig-get"
     },
     {
+      "source": "/files/remote-config/IANWeb/dispatchers/*.js",
+      "function": "files-remoteConfig-get"
+    },
+    {
       "source": "/files/remote-config/IANMobile/templates/*.json",
       "function": "files-remoteConfig-get"
     }
