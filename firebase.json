@@ -906,22 +906,6 @@
           "function": "seo-course"
         },
         {
-          "source": "/vi/files/mod-translations/lang/*.js",
-          "function": "files-remoteConfig-get"
-        },
-        {
-          "source": "/vi/files/remote-config/IANMobile/templates/*.json",
-          "function": "files-remoteConfig-get"
-        },
-        {
-          "source": "/vi/files/remote-config/IANWeb/dispatchers/*.js",
-          "function": "files-remoteConfig-get"
-        },
-        {
-          "source": "/vi/files/remote-config/IANWeb/templates/*.json",
-          "function": "files-remoteConfig-get"
-        },
-        {
           "source": "/vi/*",
           "function": "seo-tool-account-detail"
         },
@@ -2208,22 +2192,6 @@
         {
           "source": "/vi/courses/*",
           "function": "seo-course"
-        },
-        {
-          "source": "/vi/files/mod-translations/lang/*.js",
-          "function": "files-remoteConfig-get"
-        },
-        {
-          "source": "/vi/files/remote-config/IANMobile/templates/*.json",
-          "function": "files-remoteConfig-get"
-        },
-        {
-          "source": "/vi/files/remote-config/IANWeb/dispatchers/*.js",
-          "function": "files-remoteConfig-get"
-        },
-        {
-          "source": "/vi/files/remote-config/IANWeb/templates/*.json",
-          "function": "files-remoteConfig-get"
         },
         {
           "source": "/vi/*",

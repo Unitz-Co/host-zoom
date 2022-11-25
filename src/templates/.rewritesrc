@@ -17,5 +17,5 @@
       "function": "files-remoteConfig-get"
     }
   ],
-  "locales": ["en", "vi", "de"]
+  "locales": ["en", "de"]
 }
