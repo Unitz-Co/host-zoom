@@ -18,10 +18,6 @@
           "function": "seo-course"
         },
         {
-          "source": "/de/files/mod-translations/lang/*.js",
-          "function": "files-remoteConfig-get"
-        },
-        {
           "source": "/de/files/remote-config/IANMobile/templates/*.json",
           "function": "files-remoteConfig-get"
         },
@@ -172,10 +168,6 @@
         {
           "source": "/en/courses/*",
           "function": "seo-course"
-        },
-        {
-          "source": "/en/files/mod-translations/lang/*.js",
-          "function": "files-remoteConfig-get"
         },
         {
           "source": "/en/files/remote-config/IANMobile/templates/*.json",
@@ -1306,10 +1298,6 @@
           "function": "seo-course"
         },
         {
-          "source": "/de/files/mod-translations/lang/*.js",
-          "function": "files-remoteConfig-get"
-        },
-        {
           "source": "/de/files/remote-config/IANMobile/templates/*.json",
           "function": "files-remoteConfig-get"
         },
@@ -1460,10 +1448,6 @@
         {
           "source": "/en/courses/*",
           "function": "seo-course"
-        },
-        {
-          "source": "/en/files/mod-translations/lang/*.js",
-          "function": "files-remoteConfig-get"
         },
         {
           "source": "/en/files/remote-config/IANMobile/templates/*.json",

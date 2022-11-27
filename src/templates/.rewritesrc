@@ -11,10 +11,6 @@
     {
       "source": "/files/remote-config/IANMobile/templates/*.json",
       "function": "files-remoteConfig-get"
-    },
-    {
-      "source": "/files/mod-translations/lang/*.js",
-      "function": "files-remoteConfig-get"
     }
   ],
   "locales": ["en", "de"]

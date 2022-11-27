@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/files/mod-translations/lang/*.js",
+      "function": "files-remoteConfig-get"
+    }
+  ],
+  "locales": []
+}
