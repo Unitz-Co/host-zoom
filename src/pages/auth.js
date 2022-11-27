@@ -13,7 +13,7 @@ import Layout from '@uz/unitz-layout-web/LayoutMain';
 import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import PageData from '../data/PageDataQuery';
 
-const LoginIndex = withPageContext((props) => {
+const AuthIndex = withPageContext((props) => {
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
@@ -30,4 +30,4 @@ const LoginIndex = withPageContext((props) => {
   );
 });
 
-export default LoginIndex;
+export default displayName(AuthIndex);
