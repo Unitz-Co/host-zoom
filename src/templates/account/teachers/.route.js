@@ -5,7 +5,7 @@ const { ACL } = require('@vl/mod-utils/ACL');
 
 routeStore.addRule('toolAccountTeachers', {
   url: (params) => {
-    if (!ACL.can('view_member')) return null;
+    if (!ACL.can('list_member')) return null;
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
