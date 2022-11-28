@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/files/mime-icons/*.png",
+      "function": "files-mimeIcons-get"
+    }
+  ],
+  "locales": []
+}
