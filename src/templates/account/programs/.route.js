@@ -1,10 +1,12 @@
 const _ = require('lodash');
 const slugify = require('slugify');
+const { ACL } = require('@vl/mod-utils/ACL');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountPrograms', {
   url: (params) => {
+    if (!ACL.can('view_program')) return null;
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     const slug = _.get(params, 'slug');
@@ -13,7 +15,7 @@ routeStore.addRule('toolAccountPrograms', {
     if (slug) {
       return `/${slug}/programs${queryString}`;
     }
-    if(accountId) {
+    if (accountId) {
       return `/account/programs${queryString}`;
     }
     return `${getGbRoute().getDefaultAccountRoute(`/program${queryString}`)}`;
