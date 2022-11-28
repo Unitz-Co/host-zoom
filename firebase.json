@@ -18,6 +18,18 @@
           "function": "seo-course"
         },
         {
+          "source": "/de/files/remote-config/IANMobile/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/de/files/remote-config/IANWeb/dispatchers/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/de/files/remote-config/IANWeb/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
           "source": "/de/*",
           "function": "seo-tool-account-detail"
         },
@@ -158,6 +170,18 @@
           "function": "seo-course"
         },
         {
+          "source": "/en/files/remote-config/IANMobile/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/en/files/remote-config/IANWeb/dispatchers/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/en/files/remote-config/IANWeb/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
           "source": "/en/*",
           "function": "seo-tool-account-detail"
         },
@@ -292,6 +316,22 @@
         {
           "source": "/en/*/teachers",
           "function": "seo-tool-account-teachers"
+        },
+        {
+          "source": "/files/mod-translations/lang/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/files/remote-config/IANMobile/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/files/remote-config/IANWeb/dispatchers/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/files/remote-config/IANWeb/templates/*.json",
+          "function": "files-remoteConfig-get"
         },
         {
           "source": "/page-data/courses/*/page-data.json",
@@ -1258,6 +1298,18 @@
           "function": "seo-course"
         },
         {
+          "source": "/de/files/remote-config/IANMobile/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/de/files/remote-config/IANWeb/dispatchers/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/de/files/remote-config/IANWeb/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
           "source": "/de/*",
           "function": "seo-tool-account-detail"
         },
@@ -1398,6 +1450,18 @@
           "function": "seo-course"
         },
         {
+          "source": "/en/files/remote-config/IANMobile/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/en/files/remote-config/IANWeb/dispatchers/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/en/files/remote-config/IANWeb/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
           "source": "/en/*",
           "function": "seo-tool-account-detail"
         },
@@ -1532,6 +1596,22 @@
         {
           "source": "/en/*/teachers",
           "function": "seo-tool-account-teachers"
+        },
+        {
+          "source": "/files/mod-translations/lang/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/files/remote-config/IANMobile/templates/*.json",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/files/remote-config/IANWeb/dispatchers/*.js",
+          "function": "files-remoteConfig-get"
+        },
+        {
+          "source": "/files/remote-config/IANWeb/templates/*.json",
+          "function": "files-remoteConfig-get"
         },
         {
           "source": "/page-data/courses/*/page-data.json",
