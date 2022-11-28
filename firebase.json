@@ -318,6 +318,10 @@
           "function": "seo-tool-account-teachers"
         },
         {
+          "source": "/files/mime-icons/*.png",
+          "function": "files-mimeIcons-get"
+        },
+        {
           "source": "/files/mod-translations/lang/*.js",
           "function": "files-remoteConfig-get"
         },
@@ -1596,6 +1600,10 @@
         {
           "source": "/en/*/teachers",
           "function": "seo-tool-account-teachers"
+        },
+        {
+          "source": "/files/mime-icons/*.png",
+          "function": "files-mimeIcons-get"
         },
         {
           "source": "/files/mod-translations/lang/*.js",

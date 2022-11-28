@@ -3,6 +3,10 @@
     {
       "source": "/files/mod-translations/lang/*.js",
       "function": "files-remoteConfig-get"
+    },
+    {
+      "source": "/files/mime-icons/*.png",
+      "function": "files-mimeIcons-get"
     }
   ],
   "locales": []
