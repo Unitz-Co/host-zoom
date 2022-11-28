@@ -5,7 +5,7 @@ const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
 
 routeStore.addRule('toolAccountMember', {
   url: (params, ctx) => {
-    if(!ACL.can('list_member')) return null;
+    if(!ACL.can('manage_member')) return null;
     const accountParams = _.get(ctx, 'account') || getGbRoute().getPageContextParams();
     let accountId = _.get(getGbRoute().getParams(), 'accountId');
     const queryString = routeStore.queryString({ accountId });
