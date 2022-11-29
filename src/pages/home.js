@@ -12,7 +12,7 @@ import HomePage from '@uz/unitz-tool-pages/Home';
 import Layout from '@uz/unitz-layout-web/LayoutZoom';
 import SEO from '@uz/unitz-layout-web/SEO';
 import Announcement from '@uz/unitz-components-web/Announcement';
-
+import Navbar from '@uz/unitz-tool-components/Navbar';
 import PageData from '../data/PageDataQuery';
 import '../styles/styles.css';
 
@@ -23,7 +23,9 @@ const HomeIndex = withPageContext((props) => {
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'HomePageLanding' })} />
           {/* <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'articleNavbarSection' })}</Layout.POS> */}
-          <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'B2BNavbarSection' })}</Layout.POS>
+          <Layout.POS name="app-header">
+            <Navbar />
+          </Layout.POS>
           <Layout.POS name="app-body">
             <Announcement />
             <HomePage />
