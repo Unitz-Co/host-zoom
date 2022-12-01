@@ -5,8 +5,6 @@ const { withLocale } = require('@uz/mod-translations/utils-biz');
 
 require('@vl/mod-config/web');
 
-// const hasuraClient = require('@vl/mod-clients/hasuraCtf');
-
 exports.createPages = withLocale(async function(item, gatsby) {
   const localeConfig = this;
   // @update query
