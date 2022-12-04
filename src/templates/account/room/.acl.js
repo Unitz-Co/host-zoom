@@ -82,7 +82,7 @@ ACL.extends({ room: {
     return isRoomAdmin;
   },
   async hasRole(...args) {
-    const isRoomAdmin = await this.ACL.checkAccess('edit_course');
+    const isRoomAdmin = await this.ACL.checkAccess(...args);
     return isRoomAdmin;
   },
 } });
