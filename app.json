@@ -1,5 +1,5 @@
 {
-  "name": "Contentful Gatsby Starter",
+  "name": "Unitz tool for zoom",
   "description": "Gatsby starter for a Contentful project.",
   "keywords": [
     "contentful",
@@ -7,7 +7,7 @@
     "static",
     "ssg"
   ],
-  "repository": "https://github.com/contentful-userland/gatsby-contentful-starter",
+  "repository": "https://github.com/Unitz-Co/host-zoom",
   "success_url": "/",
   "buildpacks": [
     {
