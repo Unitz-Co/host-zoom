@@ -1,6 +1,6 @@
 {
-  "name": "Unitz tool for zoom",
-  "description": "Gatsby starter for a Contentful project.",
+  "name": "@uz/host-zoom",
+  "description": "Unitz zoom tool.",
   "keywords": [
     "contentful",
     "gatsby",
