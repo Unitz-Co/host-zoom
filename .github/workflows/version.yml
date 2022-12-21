@@ -1,11 +1,11 @@
-name: version
+name: versioning
 
 on:
   push:
     branches:
       - "master"
 jobs:
-  version:
+  versioning:
     runs-on: ubuntu-latest
     env:
       working-directory: ./ws-tool-web/packages/host-zoom
@@ -21,9 +21,6 @@ jobs:
         with:
           node-version: '14'
           check-latest: true
-      - name: cleanup
-        run: |
-          rm -Rf ./*
       - name: clone workspace
         uses: actions/checkout@v2
         with:
@@ -73,7 +70,7 @@ jobs:
         if: steps.cachenodemodules.outputs.cache-hit != 'true'
         run: |
           yarn
-      - name: init build
+      - name: versioning build
         working-directory: ${{env.working-directory}}
         if: steps.gatsbycachebuild.outputs.cache-hit != 'true'
         env:
