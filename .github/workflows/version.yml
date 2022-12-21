@@ -10,6 +10,12 @@ jobs:
     env:
       working-directory: ./ws-tool-web/packages/host-zoom
     steps:
+      - uses: 'actions/checkout@v3'
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
       - name: setup node v14
         uses: actions/setup-node@v2
         with:
