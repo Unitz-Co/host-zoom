@@ -28,20 +28,6 @@ jobs:
           path: ws-tool-web
           token: ${{ secrets.PAT_TOKEN }}
           persist-credentials: true
-      - name: clone env
-        uses: actions/checkout@v2
-        with:
-          repository: Unitz-Co/envprod-tool-web
-          path: config/env-tool-web
-          token: ${{ secrets.PAT_TOKEN }}
-          persist-credentials: true
-      - name: clone config
-        uses: actions/checkout@v2
-        with:
-          repository: Unitz-Co/ws-scripts
-          path: config/ws-scripts
-          token: ${{ secrets.PAT_TOKEN }}
-          persist-credentials: true
       - name: checkout submodule
         run: |
           cd ws-tool-web
@@ -50,14 +36,6 @@ jobs:
           done
           git submodule sync
           git submodule update --init --recursive --remote --force
-      - name: retrive certs and env
-        working-directory: ${{env.working-directory}}
-        run: |
-          yarn config:env
-      - name: check dir
-        working-directory: ${{env.working-directory}}
-        run: |
-          PWD=$(pwd)
       - uses: actions/cache@v2
         id: cachenodemodules
         with:
@@ -72,9 +50,6 @@ jobs:
           yarn
       - name: versioning build
         working-directory: ${{env.working-directory}}
-        if: steps.gatsbycachebuild.outputs.cache-hit != 'true'
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN}}
         run: |
           ../../packages/host-version/bin/version
       - uses: iRoachie/slack-github-actions@v2.3.0
