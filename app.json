@@ -1,20 +1,10 @@
 {
-  "name": "Contentful Gatsby Starter",
-  "description": "Gatsby starter for a Contentful project.",
+  "name": "@uz/host-zoom",
+  "description": "Unitz zoom",
   "keywords": [
-    "contentful",
-    "gatsby",
-    "static",
-    "ssg"
+    "gatsby"
   ],
-  "repository": "https://github.com/contentful-userland/gatsby-contentful-starter",
+  "repository": "https://github.com/Unitz-Co/host-zoom",
   "success_url": "/",
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-static"
-    }
-  ]
+  "buildpacks": []
 }

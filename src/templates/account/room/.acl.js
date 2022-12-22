@@ -81,9 +81,8 @@ ACL.extends({ room: {
     const isRoomAdmin = await this.ACL.checkAccess('edit_course');
     return isRoomAdmin;
   },
-  async canView(...args) {
-    // const isRoomAdmin = false;
-    const isRoomAdmin = await this.ACL.checkAccess('edit_course');
+  async hasRole(...args) {
+    const isRoomAdmin = await this.ACL.checkAccess(...args);
     return isRoomAdmin;
   },
 } });

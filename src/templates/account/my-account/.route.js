@@ -1,11 +1,12 @@
 const _ = require('lodash');
 const slugify = require('slugify');
+const { ACL } = require('@vl/mod-utils/ACL');
 const { routeStore } = require('@vl/mod-utils/gatsbyRouteStore');
 const { getGbRoute } = require('@vl/hooks/useGbRouteDe');
-const querystring = require('querystring');
 
 routeStore.addRule('toolAccountMyAccount', {
   url: (params) => {
+    if (!ACL.can('view_course')) return null;
     params = _.merge({}, params, _.get(getGbRoute().getPageContext(), 'params'));
     const id = _.get(params, 'id');
     let accountId = _.get(getGbRoute().getParams(), 'accountId');

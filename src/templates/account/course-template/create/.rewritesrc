@@ -9,5 +9,5 @@
       "function": "seo-tool-account-courseTemplate-createPageData"
     }
   ],
-  "locales": ["en", "vi", "de"]
+  "locales": ["en", "de"]
 }

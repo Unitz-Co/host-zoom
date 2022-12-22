@@ -6,7 +6,7 @@ import displayName from '@vl/redata/displayName.macro';
 
 import ForgotPasswordPage from '@uz/unitz-pages/ForgotPasswordPage';
 
-import App from '@uz/unitz-app-web/UserApp';
+import App from '@uz/unitz-app-web/ToolApp';
 import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutMain';
