@@ -2,7 +2,7 @@
   "name": "@unitz/host-zoom",
   "description": "Unitz tool for zoom",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "@apollo/client": "^3.3.11",
     "@contentful/rich-text-react-renderer": "^14.1.2",
