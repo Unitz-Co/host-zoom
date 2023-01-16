@@ -22,7 +22,6 @@ const HomeIndex = withPageContext((props) => {
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'HomePageLanding' })} />
-          {/* <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'articleNavbarSection' })}</Layout.POS> */}
           <Layout.POS name="app-header">
             <Navbar />
           </Layout.POS>
@@ -30,7 +29,6 @@ const HomeIndex = withPageContext((props) => {
             <Announcement />
             <HomePage />
           </Layout.POS>
-          {/* <Layout.POS name="app-footer">{ctx.apply('ctf.renderSection', { name: 'FooterSection' })}</Layout.POS> */}
         </DIV>
       </Layout>
     </App>
