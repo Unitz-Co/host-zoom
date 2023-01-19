@@ -1,16 +1,11 @@
 import React from 'react';
 
-
-import { Button } from '@uz/unitz-components-web/Button';
-import useScript from '@vl/hooks/useScript';
-import { getREF } from '@uz/unitz-providers/RefProvider';
-import fbFnsClient from '@vl/mod-clients/fibGatsbyFns';
 import _ from 'lodash';
 
 import { ctx } from '@vl/redata';
 import DIV from '@vl/redata/DIV.macro';
 import displayName from '@vl/redata/displayName.macro';
-import PlansPage from '@uz/unitz-tool-components/B2BBilling/Plans';
+import PlansPage from '@uz/unitz-tool-pages/BillingPlans';
 
 // import PlansPage from '@uz/unitz-tool-pages/PlansPage';
 
@@ -21,23 +16,23 @@ import Layout from '@uz/unitz-layout-web/LayoutMain';
 import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import PageData from '../../../data/PageDataQuery';
 
-const getClientToken = async () => {
-  try {
-    const authModel = getREF().getRef('authModel');
-    const user_id = await authModel?.getUserId();
-    console.log('firebasefirebase', user_id);
-    const res = await fbFnsClient.getClient().post('payment-clientToken', {
-      ...(user_id ? { user_id } : {}),
-    });
-    const client_token = _.get(res, 'client_token');
-    if (client_token) {
-      return client_token;
-    }
-    console.log('resresresres', res);
-  } catch (err) {
-    console.log(err);
-  }
-};
+// const getClientToken = async () => {
+//   try {
+//     const authModel = getREF().getRef('authModel');
+//     const user_id = await authModel?.getUserId();
+//     console.log('firebasefirebase', user_id);
+//     const res = await fbFnsClient.getClient().post('payment-clientToken', {
+//       ...(user_id ? { user_id } : {}),
+//     });
+//     const client_token = _.get(res, 'client_token');
+//     if (client_token) {
+//       return client_token;
+//     }
+//     console.log('resresresres', res);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// };
 
 // const PlansPage = () => {
 //   const ref = React.useRef({});
