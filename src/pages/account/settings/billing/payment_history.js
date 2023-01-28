@@ -18,7 +18,7 @@ import SEO from '@uz/unitz-layout-web/SEO';
 
 import Layout from '@uz/unitz-layout-web/LayoutMain';
 import withPageContext from '@uz/unitz-tool-pages/withPageContext';
-import PageData from '../../../data/PageDataQuery';
+import PageData from '../../../../data/PageDataQuery';
 
 
 const PlansIndex = withPageContext((props) => {
