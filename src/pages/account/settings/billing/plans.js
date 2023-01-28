@@ -17,7 +17,6 @@ import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import PageData from '../../../../data/PageDataQuery';
 
 const PlansIndex = withPageContext((props) => {
-  console.log('withPageContextwithPageContext', props, PageData);
   return (
     <App>
       <Layout location={props.location} PageData={PageData}>
