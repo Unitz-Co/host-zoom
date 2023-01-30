@@ -15,6 +15,7 @@ import displayName from '@vl/redata/displayName.macro';
 
 import App from '@uz/unitz-app-web/ToolApp';
 import SEO from '@uz/unitz-layout-web/SEO';
+import PaymentHistory from '@uz/unitz-tool-pages/BillingPaymentHistory';
 
 import Layout from '@uz/unitz-layout-web/LayoutMain';
 import withPageContext from '@uz/unitz-tool-pages/withPageContext';
@@ -29,9 +30,7 @@ const PlansIndex = withPageContext((props) => {
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'AuthPage' })} />
           <Layout.POS name="app-header">{ctx.apply('ctf.renderSection', { name: 'HomeBizNavbarSection' })}</Layout.POS>
           <Layout.POS name="app-body">
-            <div>
-              Payment history
-            </div>
+            <PaymentHistory />
           </Layout.POS>
           <Layout.POS name="app-footer">{ctx.apply('ctf.renderSection', { name: 'AuthBizFooterSection' })}</Layout.POS>
         </DIV>
