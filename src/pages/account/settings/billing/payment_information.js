@@ -5,8 +5,6 @@ import DIV from '@vl/redata/DIV.macro';
 import displayName from '@vl/redata/displayName.macro';
 import PaymentInformationPage from '@uz/unitz-tool-pages/BillingPaymentInformation';
 
-// import PlansPage from '@uz/unitz-tool-pages/PlansPage';
-
 import App from '@uz/unitz-app-web/ToolApp';
 import SEO from '@uz/unitz-layout-web/SEO';
 
