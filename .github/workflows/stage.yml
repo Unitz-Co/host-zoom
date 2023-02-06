@@ -3,7 +3,6 @@ name: Stage build
 on:
   push:
     branches:
-      - "master"
       - "staging"
 jobs:
   staging:
