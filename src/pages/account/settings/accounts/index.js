@@ -11,7 +11,7 @@ import Layout from '@uz/unitz-layout-web/LayoutZoomToolMenu';
 import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import HomePage from '@uz/unitz-tool-pages/Accounts';
 import Navbar from '@uz/unitz-tool-components/Navbar';
-import PageData from '../../../data/PageDataQuery';
+import PageData from '../../../../data/PageDataQuery';
 
 const AccountsIdx = withPageContext((props) => {
   return (

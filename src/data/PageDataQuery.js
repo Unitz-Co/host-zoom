@@ -6,6 +6,7 @@ import PageData_de from './locales/de';
 import PageData_en from './locales/en';
 import 'moment/locale/de';
 import 'moment/locale/en-gb';
+
 const locales = {
   de: PageData_de,
   en: PageData_en,
