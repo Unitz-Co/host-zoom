@@ -42,7 +42,7 @@ if (!spaceId || !accessToken) {
 const gbConfig = gatsbyMergeConfig(
   {
     siteMetadata: {
-      title: 'Gatsby Contentful starter',
+      title: 'Unitz tool',
     },
     pathPrefix: '/gatsby-contentful-starter',
     plugins: [
