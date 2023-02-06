@@ -3,7 +3,7 @@ name: Stage build
 on:
   push:
     branches:
-      - "staging"
+      - "master"
 jobs:
   staging:
     runs-on: ubuntu-latest
