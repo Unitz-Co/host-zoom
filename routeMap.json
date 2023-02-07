@@ -1,13 +1,17 @@
 {
-  "/:accountSlug/courses": {
+  "/:account/courses": {
     "originPath": "/account/courses",
     "render": "renderAccountPage"
   },
-  "/(en|de|vi)/:accountSlug/courses": {
+  "/(en|de)/:account/courses": {
     "originPath": "/account/courses",
     "render": "renderAccountPage"
   },
-  "/page-data/(en|de|vi)/:accountSlug/courses/page-data.json": {
+  "/page-data/:account/courses/page-data.json": {
+    "originPath": "/account/courses",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/courses/page-data.json": {
     "originPath": "/account/courses",
     "render": "renderAccountPageData"
   }
