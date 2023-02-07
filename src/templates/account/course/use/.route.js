@@ -9,12 +9,12 @@ routeStore.addRule('toolAccountCourseUseTemplate', {
     let accountId = _.get(getGbRoute().getParams(), 'accountId');
     const queryString = routeStore.queryString({ id: _.get(params, 'id'), accountId });
     if (accountSlug) {
-      return `/${accountSlug}/course/use-template${queryString}`;
+      return `/${accountSlug}/course/start-course${queryString}`;
     }
     if(accountId) {
-      return `/account/course/use-template${queryString}`;
+      return `/account/course/start-course${queryString}`;
     }
-    return `${getGbRoute().getDefaultAccountRoute(`/course/use-template${queryString}`)}`;
+    return `${getGbRoute().getDefaultAccountRoute(`/course/start-course${queryString}`)}`;
   },
   parse: (urlObject) => {
     const params = {};
@@ -24,6 +24,6 @@ routeStore.addRule('toolAccountCourseUseTemplate', {
     return params;
   },
   match: (urlObject) => {
-    return urlObject.pathname === 'account/course/use-template';
+    return urlObject.pathname === 'account/course/start-course';
   },
 });
