@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/calendar",
+      "render": "renderAccountPage",
       "source": "/*/calendar",
       "function": "seo-tool-account-calendar"
     },
     {
+      "originPath": "/account/calendar",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/calendar/page-data.json",
       "function": "seo-tool-account-calendarPageData"
     }

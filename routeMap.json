@@ -1,4 +1,20 @@
 {
+  "/:account/calendar": {
+    "originPath": "/account/calendar",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/calendar": {
+    "originPath": "/account/calendar",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/calendar/page-data.json": {
+    "originPath": "/account/calendar",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/calendar/page-data.json": {
+    "originPath": "/account/calendar",
+    "render": "renderAccountPageData"
+  },
   "/:account/course": {
     "originPath": "/account/course",
     "render": "renderAccountPage"
@@ -29,6 +45,38 @@
   },
   "/page-data/(en|de)/:account/courses/page-data.json": {
     "originPath": "/account/courses",
+    "render": "renderAccountPageData"
+  },
+  "/:account/students": {
+    "originPath": "/account/students",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/students": {
+    "originPath": "/account/students",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/students/page-data.json": {
+    "originPath": "/account/students",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/students/page-data.json": {
+    "originPath": "/account/students",
+    "render": "renderAccountPageData"
+  },
+  "/:account/teachers": {
+    "originPath": "/account/teachers",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/teachers": {
+    "originPath": "/account/teachers",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/teachers/page-data.json": {
+    "originPath": "/account/teachers",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/teachers/page-data.json": {
+    "originPath": "/account/teachers",
     "render": "renderAccountPageData"
   }
 }

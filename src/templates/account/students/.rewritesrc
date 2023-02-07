@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/students",
+      "render": "renderAccountPage",
       "source": "/*/students",
       "function": "seo-tool-account-students"
     },
     {
+      "originPath": "/account/students",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/students/page-data.json",
       "function": "seo-tool-account-studentsPageData"
     }
