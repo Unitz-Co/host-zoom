@@ -1,0 +1,14 @@
+{
+  "/:accountSlug/courses": {
+    "originPath": "/account/courses",
+    "render": "renderAccountPage"
+  },
+  "/(en|de|vi)/:accountSlug/courses": {
+    "originPath": "/account/courses",
+    "render": "renderAccountPage"
+  },
+  "/page-data/(en|de|vi)/:accountSlug/courses/page-data.json": {
+    "originPath": "/account/courses",
+    "render": "renderAccountPageData"
+  }
+}
