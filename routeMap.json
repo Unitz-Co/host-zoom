@@ -1,4 +1,20 @@
 {
+  "/:account/course": {
+    "originPath": "/account/course",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course": {
+    "originPath": "/account/course",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/page-data.json": {
+    "originPath": "/account/course",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/page-data.json": {
+    "originPath": "/account/course",
+    "render": "renderAccountPageData"
+  },
   "/:account/courses": {
     "originPath": "/account/courses",
     "render": "renderAccountPage"
