@@ -95,7 +95,7 @@
         },
         {
           "source": "/de/*/courses",
-          "function": "seo-tool-account-courses"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/members",
@@ -247,7 +247,7 @@
         },
         {
           "source": "/en/*/courses",
-          "function": "seo-tool-account-courses"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/members",
@@ -407,7 +407,7 @@
         },
         {
           "source": "/page-data/de/*/courses/page-data.json",
-          "function": "seo-tool-account-coursesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/members/page-data.json",
@@ -547,7 +547,7 @@
         },
         {
           "source": "/page-data/en/*/courses/page-data.json",
-          "function": "seo-tool-account-coursesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/members/page-data.json",
@@ -683,7 +683,7 @@
         },
         {
           "source": "/page-data/*/courses/page-data.json",
-          "function": "seo-tool-account-coursesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/members/page-data.json",
@@ -823,7 +823,7 @@
         },
         {
           "source": "/*/courses",
-          "function": "seo-tool-account-courses"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/members",
@@ -1099,7 +1099,7 @@
         },
         {
           "source": "/de/*/courses",
-          "function": "seo-tool-account-courses"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/members",
@@ -1251,7 +1251,7 @@
         },
         {
           "source": "/en/*/courses",
-          "function": "seo-tool-account-courses"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/members",
@@ -1411,7 +1411,7 @@
         },
         {
           "source": "/page-data/de/*/courses/page-data.json",
-          "function": "seo-tool-account-coursesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/members/page-data.json",
@@ -1551,7 +1551,7 @@
         },
         {
           "source": "/page-data/en/*/courses/page-data.json",
-          "function": "seo-tool-account-coursesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/members/page-data.json",
@@ -1687,7 +1687,7 @@
         },
         {
           "source": "/page-data/*/courses/page-data.json",
-          "function": "seo-tool-account-coursesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/members/page-data.json",
@@ -1827,7 +1827,7 @@
         },
         {
           "source": "/*/courses",
-          "function": "seo-tool-account-courses"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/members",
