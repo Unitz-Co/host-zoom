@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/settings/edit",
+      "render": "renderAccountPage",
       "source": "/*/settings/edit",
       "function": "seo-tool-account-settings-edit"
     },
     {
+      "originPath": "/account/settings/edit",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/settings/edit/page-data.json",
       "function": "seo-tool-account-settings-editPageData"
     }

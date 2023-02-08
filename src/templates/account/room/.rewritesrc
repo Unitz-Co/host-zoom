@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/room",
+      "render": "renderAccountPage",
       "source": "/*/room",
       "function": "seo-tool-account-room"
     },
     {
+      "originPath": "/account/room",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/room/page-data.json",
       "function": "seo-tool-account-roomPageData"
     }

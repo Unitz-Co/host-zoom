@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/course/reports",
+      "render": "renderAccountPage",
       "source": "/*/course/reports",
       "function": "seo-tool-account-course-reports"
     },
     {
+      "originPath": "/account/course/reports",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/course/reports/page-data.json",
       "function": "seo-tool-account-course-reportsPageData"
     }

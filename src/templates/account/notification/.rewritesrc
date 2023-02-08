@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/notification",
+      "render": "renderAccountPage",
       "source": "/*/notification",
       "function": "seo-tool-account-notifications"
     },
     {
+      "originPath": "/account/notification",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/notification/page-data.json",
       "function": "seo-tool-account-notificationsPageData"
     }

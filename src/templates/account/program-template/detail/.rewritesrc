@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/program-template",
+      "render": "renderAccountPage",
       "source": "/*/program-template",
       "function": "seo-tool-account-programTemplate-detail"
     },
     {
+      "originPath": "/account/program-template",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/program-template/page-data.json",
       "function": "seo-tool-account-programTemplate-detailPageData"
     }

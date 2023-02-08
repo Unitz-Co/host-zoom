@@ -1,4 +1,20 @@
 {
+  "/:account": {
+    "originPath": "/account",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account": {
+    "originPath": "/account",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/page-data.json": {
+    "originPath": "/account",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/page-data.json": {
+    "originPath": "/account",
+    "render": "renderAccountPageData"
+  },
   "/:account/calendar": {
     "originPath": "/account/calendar",
     "render": "renderAccountPage"
@@ -13,6 +29,54 @@
   },
   "/page-data/(en|de)/:account/calendar/page-data.json": {
     "originPath": "/account/calendar",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course-templates": {
+    "originPath": "/account/course-templates",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course-templates": {
+    "originPath": "/account/course-templates",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course-templates/page-data.json": {
+    "originPath": "/account/course-templates",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course-templates/page-data.json": {
+    "originPath": "/account/course-templates",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/create": {
+    "originPath": "/account/course/create",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/create": {
+    "originPath": "/account/course/create",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/create/page-data.json": {
+    "originPath": "/account/course/create",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/create/page-data.json": {
+    "originPath": "/account/course/create",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/created": {
+    "originPath": "/account/course/created",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/created": {
+    "originPath": "/account/course/created",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/created/page-data.json": {
+    "originPath": "/account/course/created",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/created/page-data.json": {
+    "originPath": "/account/course/created",
     "render": "renderAccountPageData"
   },
   "/:account/course": {
@@ -31,6 +95,102 @@
     "originPath": "/account/course",
     "render": "renderAccountPageData"
   },
+  "/:account/course/edit": {
+    "originPath": "/account/course/edit",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/edit": {
+    "originPath": "/account/course/edit",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/edit/page-data.json": {
+    "originPath": "/account/course/edit",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/edit/page-data.json": {
+    "originPath": "/account/course/edit",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/pick-templates": {
+    "originPath": "/account/course/pick-templates",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/pick-templates": {
+    "originPath": "/account/course/pick-templates",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/pick-templates/page-data.json": {
+    "originPath": "/account/course/pick-templates",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/pick-templates/page-data.json": {
+    "originPath": "/account/course/pick-templates",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/reports": {
+    "originPath": "/account/course/reports",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/reports": {
+    "originPath": "/account/course/reports",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/reports/page-data.json": {
+    "originPath": "/account/course/reports",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/reports/page-data.json": {
+    "originPath": "/account/course/reports",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/students": {
+    "originPath": "/account/course/students",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/students": {
+    "originPath": "/account/course/students",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/students/page-data.json": {
+    "originPath": "/account/course/students",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/students/page-data.json": {
+    "originPath": "/account/course/students",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/teachers": {
+    "originPath": "/account/course/teachers",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/teachers": {
+    "originPath": "/account/course/teachers",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/teachers/page-data.json": {
+    "originPath": "/account/course/teachers",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/teachers/page-data.json": {
+    "originPath": "/account/course/teachers",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course/use-template": {
+    "originPath": "/account/course/use-template",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course/use-template": {
+    "originPath": "/account/course/use-template",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course/use-template/page-data.json": {
+    "originPath": "/account/course/use-template",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course/use-template/page-data.json": {
+    "originPath": "/account/course/use-template",
+    "render": "renderAccountPageData"
+  },
   "/:account/courses": {
     "originPath": "/account/courses",
     "render": "renderAccountPage"
@@ -47,6 +207,230 @@
     "originPath": "/account/courses",
     "render": "renderAccountPageData"
   },
+  "/:account/members": {
+    "originPath": "/account/members",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/members": {
+    "originPath": "/account/members",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/members/page-data.json": {
+    "originPath": "/account/members",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/members/page-data.json": {
+    "originPath": "/account/members",
+    "render": "renderAccountPageData"
+  },
+  "/:account/my-account": {
+    "originPath": "/account/my-account",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/my-account": {
+    "originPath": "/account/my-account",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/my-account/page-data.json": {
+    "originPath": "/account/my-account",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/my-account/page-data.json": {
+    "originPath": "/account/my-account",
+    "render": "renderAccountPageData"
+  },
+  "/:account/notification": {
+    "originPath": "/account/notification",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/notification": {
+    "originPath": "/account/notification",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/notification/page-data.json": {
+    "originPath": "/account/notification",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/notification/page-data.json": {
+    "originPath": "/account/notification",
+    "render": "renderAccountPageData"
+  },
+  "/:account/notifications": {
+    "originPath": "/account/notifications",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/notifications": {
+    "originPath": "/account/notifications",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/notifications/page-data.json": {
+    "originPath": "/account/notifications",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/notifications/page-data.json": {
+    "originPath": "/account/notifications",
+    "render": "renderAccountPageData"
+  },
+  "/:account/settings/edit": {
+    "originPath": "/account/settings/edit",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/settings/edit": {
+    "originPath": "/account/settings/edit",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/settings/edit/page-data.json": {
+    "originPath": "/account/settings/edit",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/settings/edit/page-data.json": {
+    "originPath": "/account/settings/edit",
+    "render": "renderAccountPageData"
+  },
+  "/:account/program-template/create": {
+    "originPath": "/account/program-template/create",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/program-template/create": {
+    "originPath": "/account/program-template/create",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/program-template/create/page-data.json": {
+    "originPath": "/account/program-template/create",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/program-template/create/page-data.json": {
+    "originPath": "/account/program-template/create",
+    "render": "renderAccountPageData"
+  },
+  "/:account/program-template/created": {
+    "originPath": "/account/program-template/created",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/program-template/created": {
+    "originPath": "/account/program-template/created",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/program-template/created/page-data.json": {
+    "originPath": "/account/program-template/created",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/program-template/created/page-data.json": {
+    "originPath": "/account/program-template/created",
+    "render": "renderAccountPageData"
+  },
+  "/:account/program-template": {
+    "originPath": "/account/program-template",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/program-template": {
+    "originPath": "/account/program-template",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/program-template/page-data.json": {
+    "originPath": "/account/program-template",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/program-template/page-data.json": {
+    "originPath": "/account/program-template",
+    "render": "renderAccountPageData"
+  },
+  "/:account/program-template/edit": {
+    "originPath": "/account/program-template/edit",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/program-template/edit": {
+    "originPath": "/account/program-template/edit",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/program-template/edit/page-data.json": {
+    "originPath": "/account/program-template/edit",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/program-template/edit/page-data.json": {
+    "originPath": "/account/program-template/edit",
+    "render": "renderAccountPageData"
+  },
+  "/:account/program-templates": {
+    "originPath": "/account/program-templates",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/program-templates": {
+    "originPath": "/account/program-templates",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/program-templates/page-data.json": {
+    "originPath": "/account/program-templates",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/program-templates/page-data.json": {
+    "originPath": "/account/program-templates",
+    "render": "renderAccountPageData"
+  },
+  "/:account/program/create": {
+    "originPath": "/account/program/create",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/program/create": {
+    "originPath": "/account/program/create",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/program/create/page-data.json": {
+    "originPath": "/account/program/create",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/program/create/page-data.json": {
+    "originPath": "/account/program/create",
+    "render": "renderAccountPageData"
+  },
+  "/:account/programs": {
+    "originPath": "/account/programs",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/programs": {
+    "originPath": "/account/programs",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/programs/page-data.json": {
+    "originPath": "/account/programs",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/programs/page-data.json": {
+    "originPath": "/account/programs",
+    "render": "renderAccountPageData"
+  },
+  "/:account/room": {
+    "originPath": "/account/room",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/room": {
+    "originPath": "/account/room",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/room/page-data.json": {
+    "originPath": "/account/room",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/room/page-data.json": {
+    "originPath": "/account/room",
+    "render": "renderAccountPageData"
+  },
+  "/:account/student": {
+    "originPath": "/account/student",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/student": {
+    "originPath": "/account/student",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/student/page-data.json": {
+    "originPath": "/account/student",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/student/page-data.json": {
+    "originPath": "/account/student",
+    "render": "renderAccountPageData"
+  },
   "/:account/students": {
     "originPath": "/account/students",
     "render": "renderAccountPage"
@@ -61,6 +445,22 @@
   },
   "/page-data/(en|de)/:account/students/page-data.json": {
     "originPath": "/account/students",
+    "render": "renderAccountPageData"
+  },
+  "/:account/teacher": {
+    "originPath": "/account/teacher",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/teacher": {
+    "originPath": "/account/teacher",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/teacher/page-data.json": {
+    "originPath": "/account/teacher",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/teacher/page-data.json": {
+    "originPath": "/account/teacher",
     "render": "renderAccountPageData"
   },
   "/:account/teachers": {
