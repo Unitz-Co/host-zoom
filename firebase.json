@@ -31,7 +31,7 @@
         },
         {
           "source": "/de/*",
-          "function": "seo-tool-account-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/calendar",
@@ -183,7 +183,7 @@
         },
         {
           "source": "/en/*",
-          "function": "seo-tool-account-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/calendar",
@@ -427,7 +427,7 @@
         },
         {
           "source": "/page-data/de/*/page-data.json",
-          "function": "seo-tool-account-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/create/page-data.json",
@@ -567,7 +567,7 @@
         },
         {
           "source": "/page-data/en/*/page-data.json",
-          "function": "seo-tool-account-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/create/page-data.json",
@@ -703,7 +703,7 @@
         },
         {
           "source": "/page-data/*/page-data.json",
-          "function": "seo-tool-account-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/create/page-data.json",
@@ -759,7 +759,7 @@
         },
         {
           "source": "/*",
-          "function": "seo-tool-account-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/calendar",
@@ -1035,7 +1035,7 @@
         },
         {
           "source": "/de/*",
-          "function": "seo-tool-account-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/calendar",
@@ -1187,7 +1187,7 @@
         },
         {
           "source": "/en/*",
-          "function": "seo-tool-account-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/calendar",
@@ -1431,7 +1431,7 @@
         },
         {
           "source": "/page-data/de/*/page-data.json",
-          "function": "seo-tool-account-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/create/page-data.json",
@@ -1571,7 +1571,7 @@
         },
         {
           "source": "/page-data/en/*/page-data.json",
-          "function": "seo-tool-account-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/create/page-data.json",
@@ -1707,7 +1707,7 @@
         },
         {
           "source": "/page-data/*/page-data.json",
-          "function": "seo-tool-account-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/create/page-data.json",
@@ -1763,7 +1763,7 @@
         },
         {
           "source": "/*",
-          "function": "seo-tool-account-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/calendar",
