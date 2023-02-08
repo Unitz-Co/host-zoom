@@ -4,13 +4,13 @@
       "originPath": "/account/members",
       "render": "renderAccountPage",
       "source": "/*/members",
-      "function": "seo-tool-account-members"
+      "function": "seo-tool-account-render"
     },
     {
       "originPath": "/account/members",
       "render": "renderAccountPageData",
       "source": "/page-data/*/members/page-data.json",
-      "function": "seo-tool-account-membersPageData"
+      "function": "seo-tool-account-renderPageData"
     }
   ],
   "locales": ["en", "de"]

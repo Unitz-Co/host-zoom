@@ -4,13 +4,13 @@
       "originPath": "/account/calendar",
       "render": "renderAccountPage",
       "source": "/*/calendar",
-      "function": "seo-tool-account-calendar"
+      "function": "seo-tool-account-render"
     },
     {
       "originPath": "/account/calendar",
       "render": "renderAccountPageData",
       "source": "/page-data/*/calendar/page-data.json",
-      "function": "seo-tool-account-calendarPageData"
+      "function": "seo-tool-account-renderPageData"
     }
   ],
   "locales": ["en", "de"]

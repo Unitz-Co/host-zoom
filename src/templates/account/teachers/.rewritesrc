@@ -4,13 +4,13 @@
       "originPath": "/account/teachers",
       "render": "renderAccountPage",
       "source": "/*/teachers",
-      "function": "seo-tool-account-teachers"
+      "function": "seo-tool-account-render"
     },
     {
       "originPath": "/account/teachers",
       "render": "renderAccountPageData",
       "source": "/page-data/*/teachers/page-data.json",
-      "function": "seo-tool-account-teachersPageData"
+      "function": "seo-tool-account-renderPageData"
     }
   ],
   "locales": ["en", "de"]

@@ -4,13 +4,13 @@
       "originPath": "/account/room",
       "render": "renderAccountPage",
       "source": "/*/room",
-      "function": "seo-tool-account-room"
+      "function": "seo-tool-account-render"
     },
     {
       "originPath": "/account/room",
       "render": "renderAccountPageData",
       "source": "/page-data/*/room/page-data.json",
-      "function": "seo-tool-account-roomPageData"
+      "function": "seo-tool-account-renderPageData"
     }
   ],
   "locales": ["en", "de"]

@@ -35,63 +35,63 @@
         },
         {
           "source": "/de/*/calendar",
-          "function": "seo-tool-account-calendar"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course",
-          "function": "seo-tool-account-course-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template",
-          "function": "seo-tool-account-courseTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template/create",
-          "function": "seo-tool-account-courseTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template/created",
-          "function": "seo-tool-account-courseTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template/edit",
-          "function": "seo-tool-account-courseTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-templates",
-          "function": "seo-tool-account-courseTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/create",
-          "function": "seo-tool-account-course-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/created",
-          "function": "seo-tool-account-course-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/edit",
-          "function": "seo-tool-account-course-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/pick-templates",
-          "function": "seo-tool-account-course-pickTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/reports",
-          "function": "seo-tool-account-course-reports"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/students",
-          "function": "seo-tool-account-course-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/teachers",
-          "function": "seo-tool-account-course-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/use-template",
-          "function": "seo-tool-account-course-useTemplate"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/courses",
@@ -99,71 +99,71 @@
         },
         {
           "source": "/de/*/members",
-          "function": "seo-tool-account-members"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/my-account",
-          "function": "seo-tool-account-myAccount"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/notification",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/notifications",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template",
-          "function": "seo-tool-account-programTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template/create",
-          "function": "seo-tool-account-programTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template/created",
-          "function": "seo-tool-account-programTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template/edit",
-          "function": "seo-tool-account-programTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-templates",
-          "function": "seo-tool-account-programTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program/create",
-          "function": "seo-tool-account-program-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/programs",
-          "function": "seo-tool-account-programs"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/room",
-          "function": "seo-tool-account-room"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/settings/edit",
-          "function": "seo-tool-account-settings-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/student",
-          "function": "seo-tool-account-student"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/students",
-          "function": "seo-tool-account-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/teacher",
-          "function": "seo-tool-account-teacher"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/teachers",
-          "function": "seo-tool-account-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/courses/*",
@@ -187,63 +187,63 @@
         },
         {
           "source": "/en/*/calendar",
-          "function": "seo-tool-account-calendar"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course",
-          "function": "seo-tool-account-course-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template",
-          "function": "seo-tool-account-courseTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template/create",
-          "function": "seo-tool-account-courseTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template/created",
-          "function": "seo-tool-account-courseTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template/edit",
-          "function": "seo-tool-account-courseTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-templates",
-          "function": "seo-tool-account-courseTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/create",
-          "function": "seo-tool-account-course-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/created",
-          "function": "seo-tool-account-course-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/edit",
-          "function": "seo-tool-account-course-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/pick-templates",
-          "function": "seo-tool-account-course-pickTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/reports",
-          "function": "seo-tool-account-course-reports"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/students",
-          "function": "seo-tool-account-course-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/teachers",
-          "function": "seo-tool-account-course-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/use-template",
-          "function": "seo-tool-account-course-useTemplate"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/courses",
@@ -251,71 +251,71 @@
         },
         {
           "source": "/en/*/members",
-          "function": "seo-tool-account-members"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/my-account",
-          "function": "seo-tool-account-myAccount"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/notification",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/notifications",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template",
-          "function": "seo-tool-account-programTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template/create",
-          "function": "seo-tool-account-programTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template/created",
-          "function": "seo-tool-account-programTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template/edit",
-          "function": "seo-tool-account-programTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-templates",
-          "function": "seo-tool-account-programTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program/create",
-          "function": "seo-tool-account-program-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/programs",
-          "function": "seo-tool-account-programs"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/room",
-          "function": "seo-tool-account-room"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/settings/edit",
-          "function": "seo-tool-account-settings-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/student",
-          "function": "seo-tool-account-student"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/students",
-          "function": "seo-tool-account-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/teacher",
-          "function": "seo-tool-account-teacher"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/teachers",
-          "function": "seo-tool-account-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/files/mime-icons/*.png",
@@ -347,63 +347,63 @@
         },
         {
           "source": "/page-data/de/*/calendar/page-data.json",
-          "function": "seo-tool-account-calendarPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/create/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/created/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/edit/page-data.json",
-          "function": "seo-tool-account-courseTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/page-data.json",
-          "function": "seo-tool-account-courseTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-templates/page-data.json",
-          "function": "seo-tool-account-courseTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/create/page-data.json",
-          "function": "seo-tool-account-course-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/created/page-data.json",
-          "function": "seo-tool-account-course-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/edit/page-data.json",
-          "function": "seo-tool-account-course-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/page-data.json",
-          "function": "seo-tool-account-course-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/pick-templates/page-data.json",
-          "function": "seo-tool-account-course-pickTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/reports/page-data.json",
-          "function": "seo-tool-account-course-reportsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/students/page-data.json",
-          "function": "seo-tool-account-course-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/teachers/page-data.json",
-          "function": "seo-tool-account-course-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/use-template/page-data.json",
-          "function": "seo-tool-account-course-useTemplatePageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/courses/page-data.json",
@@ -411,19 +411,19 @@
         },
         {
           "source": "/page-data/de/*/members/page-data.json",
-          "function": "seo-tool-account-membersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/my-account/page-data.json",
-          "function": "seo-tool-account-myAccountPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/notification/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/notifications/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/page-data.json",
@@ -431,55 +431,55 @@
         },
         {
           "source": "/page-data/de/*/program-template/create/page-data.json",
-          "function": "seo-tool-account-programTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/created/page-data.json",
-          "function": "seo-tool-account-programTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/edit/page-data.json",
-          "function": "seo-tool-account-programTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/page-data.json",
-          "function": "seo-tool-account-programTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-templates/page-data.json",
-          "function": "seo-tool-account-programTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program/create/page-data.json",
-          "function": "seo-tool-account-program-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/programs/page-data.json",
-          "function": "seo-tool-account-programsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/room/page-data.json",
-          "function": "seo-tool-account-roomPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/settings/edit/page-data.json",
-          "function": "seo-tool-account-settings-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/student/page-data.json",
-          "function": "seo-tool-account-studentPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/students/page-data.json",
-          "function": "seo-tool-account-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/teacher/page-data.json",
-          "function": "seo-tool-account-teacherPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/teachers/page-data.json",
-          "function": "seo-tool-account-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/courses/*/page-data.json",
@@ -487,63 +487,63 @@
         },
         {
           "source": "/page-data/en/*/calendar/page-data.json",
-          "function": "seo-tool-account-calendarPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/create/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/created/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/edit/page-data.json",
-          "function": "seo-tool-account-courseTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/page-data.json",
-          "function": "seo-tool-account-courseTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-templates/page-data.json",
-          "function": "seo-tool-account-courseTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/create/page-data.json",
-          "function": "seo-tool-account-course-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/created/page-data.json",
-          "function": "seo-tool-account-course-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/edit/page-data.json",
-          "function": "seo-tool-account-course-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/page-data.json",
-          "function": "seo-tool-account-course-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/pick-templates/page-data.json",
-          "function": "seo-tool-account-course-pickTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/reports/page-data.json",
-          "function": "seo-tool-account-course-reportsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/students/page-data.json",
-          "function": "seo-tool-account-course-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/teachers/page-data.json",
-          "function": "seo-tool-account-course-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/use-template/page-data.json",
-          "function": "seo-tool-account-course-useTemplatePageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/courses/page-data.json",
@@ -551,19 +551,19 @@
         },
         {
           "source": "/page-data/en/*/members/page-data.json",
-          "function": "seo-tool-account-membersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/my-account/page-data.json",
-          "function": "seo-tool-account-myAccountPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/notification/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/page-data.json",
@@ -571,115 +571,115 @@
         },
         {
           "source": "/page-data/en/*/program-template/create/page-data.json",
-          "function": "seo-tool-account-programTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/created/page-data.json",
-          "function": "seo-tool-account-programTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/edit/page-data.json",
-          "function": "seo-tool-account-programTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/page-data.json",
-          "function": "seo-tool-account-programTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-templates/page-data.json",
-          "function": "seo-tool-account-programTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program/create/page-data.json",
-          "function": "seo-tool-account-program-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/programs/page-data.json",
-          "function": "seo-tool-account-programsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/room/page-data.json",
-          "function": "seo-tool-account-roomPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/settings/edit/page-data.json",
-          "function": "seo-tool-account-settings-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/student/page-data.json",
-          "function": "seo-tool-account-studentPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/students/page-data.json",
-          "function": "seo-tool-account-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/teacher/page-data.json",
-          "function": "seo-tool-account-teacherPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/teachers/page-data.json",
-          "function": "seo-tool-account-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/calendar/page-data.json",
-          "function": "seo-tool-account-calendarPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/create/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/created/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/edit/page-data.json",
-          "function": "seo-tool-account-courseTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/page-data.json",
-          "function": "seo-tool-account-courseTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-templates/page-data.json",
-          "function": "seo-tool-account-courseTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/create/page-data.json",
-          "function": "seo-tool-account-course-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/created/page-data.json",
-          "function": "seo-tool-account-course-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/edit/page-data.json",
-          "function": "seo-tool-account-course-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/page-data.json",
-          "function": "seo-tool-account-course-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/pick-templates/page-data.json",
-          "function": "seo-tool-account-course-pickTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/reports/page-data.json",
-          "function": "seo-tool-account-course-reportsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/students/page-data.json",
-          "function": "seo-tool-account-course-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/teachers/page-data.json",
-          "function": "seo-tool-account-course-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/use-template/page-data.json",
-          "function": "seo-tool-account-course-useTemplatePageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/courses/page-data.json",
@@ -687,19 +687,19 @@
         },
         {
           "source": "/page-data/*/members/page-data.json",
-          "function": "seo-tool-account-membersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/my-account/page-data.json",
-          "function": "seo-tool-account-myAccountPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/notification/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/page-data.json",
@@ -707,55 +707,55 @@
         },
         {
           "source": "/page-data/*/program-template/create/page-data.json",
-          "function": "seo-tool-account-programTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/created/page-data.json",
-          "function": "seo-tool-account-programTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/edit/page-data.json",
-          "function": "seo-tool-account-programTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/page-data.json",
-          "function": "seo-tool-account-programTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-templates/page-data.json",
-          "function": "seo-tool-account-programTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program/create/page-data.json",
-          "function": "seo-tool-account-program-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/programs/page-data.json",
-          "function": "seo-tool-account-programsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/room/page-data.json",
-          "function": "seo-tool-account-roomPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/settings/edit/page-data.json",
-          "function": "seo-tool-account-settings-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/student/page-data.json",
-          "function": "seo-tool-account-studentPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/students/page-data.json",
-          "function": "seo-tool-account-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/teacher/page-data.json",
-          "function": "seo-tool-account-teacherPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/teachers/page-data.json",
-          "function": "seo-tool-account-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/*",
@@ -763,63 +763,63 @@
         },
         {
           "source": "/*/calendar",
-          "function": "seo-tool-account-calendar"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course",
-          "function": "seo-tool-account-course-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template",
-          "function": "seo-tool-account-courseTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template/create",
-          "function": "seo-tool-account-courseTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template/created",
-          "function": "seo-tool-account-courseTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template/edit",
-          "function": "seo-tool-account-courseTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-templates",
-          "function": "seo-tool-account-courseTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/create",
-          "function": "seo-tool-account-course-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/created",
-          "function": "seo-tool-account-course-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/edit",
-          "function": "seo-tool-account-course-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/pick-templates",
-          "function": "seo-tool-account-course-pickTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/reports",
-          "function": "seo-tool-account-course-reports"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/students",
-          "function": "seo-tool-account-course-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/teachers",
-          "function": "seo-tool-account-course-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/use-template",
-          "function": "seo-tool-account-course-useTemplate"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/courses",
@@ -827,71 +827,71 @@
         },
         {
           "source": "/*/members",
-          "function": "seo-tool-account-members"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/my-account",
-          "function": "seo-tool-account-myAccount"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/notification",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/notifications",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template",
-          "function": "seo-tool-account-programTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template/create",
-          "function": "seo-tool-account-programTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template/created",
-          "function": "seo-tool-account-programTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template/edit",
-          "function": "seo-tool-account-programTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-templates",
-          "function": "seo-tool-account-programTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program/create",
-          "function": "seo-tool-account-program-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/programs",
-          "function": "seo-tool-account-programs"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/room",
-          "function": "seo-tool-account-room"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/settings/edit",
-          "function": "seo-tool-account-settings-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/student",
-          "function": "seo-tool-account-student"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/students",
-          "function": "seo-tool-account-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/teacher",
-          "function": "seo-tool-account-teacher"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/teachers",
-          "function": "seo-tool-account-teachers"
+          "function": "seo-tool-account-render"
         }
       ],
       "headers": [
@@ -1039,63 +1039,63 @@
         },
         {
           "source": "/de/*/calendar",
-          "function": "seo-tool-account-calendar"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course",
-          "function": "seo-tool-account-course-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template",
-          "function": "seo-tool-account-courseTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template/create",
-          "function": "seo-tool-account-courseTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template/created",
-          "function": "seo-tool-account-courseTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-template/edit",
-          "function": "seo-tool-account-courseTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course-templates",
-          "function": "seo-tool-account-courseTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/create",
-          "function": "seo-tool-account-course-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/created",
-          "function": "seo-tool-account-course-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/edit",
-          "function": "seo-tool-account-course-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/pick-templates",
-          "function": "seo-tool-account-course-pickTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/reports",
-          "function": "seo-tool-account-course-reports"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/students",
-          "function": "seo-tool-account-course-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/teachers",
-          "function": "seo-tool-account-course-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/course/use-template",
-          "function": "seo-tool-account-course-useTemplate"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/courses",
@@ -1103,71 +1103,71 @@
         },
         {
           "source": "/de/*/members",
-          "function": "seo-tool-account-members"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/my-account",
-          "function": "seo-tool-account-myAccount"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/notification",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/notifications",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template",
-          "function": "seo-tool-account-programTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template/create",
-          "function": "seo-tool-account-programTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template/created",
-          "function": "seo-tool-account-programTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-template/edit",
-          "function": "seo-tool-account-programTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program-templates",
-          "function": "seo-tool-account-programTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/program/create",
-          "function": "seo-tool-account-program-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/programs",
-          "function": "seo-tool-account-programs"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/room",
-          "function": "seo-tool-account-room"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/settings/edit",
-          "function": "seo-tool-account-settings-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/student",
-          "function": "seo-tool-account-student"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/students",
-          "function": "seo-tool-account-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/teacher",
-          "function": "seo-tool-account-teacher"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/de/*/teachers",
-          "function": "seo-tool-account-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/courses/*",
@@ -1191,63 +1191,63 @@
         },
         {
           "source": "/en/*/calendar",
-          "function": "seo-tool-account-calendar"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course",
-          "function": "seo-tool-account-course-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template",
-          "function": "seo-tool-account-courseTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template/create",
-          "function": "seo-tool-account-courseTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template/created",
-          "function": "seo-tool-account-courseTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-template/edit",
-          "function": "seo-tool-account-courseTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course-templates",
-          "function": "seo-tool-account-courseTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/create",
-          "function": "seo-tool-account-course-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/created",
-          "function": "seo-tool-account-course-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/edit",
-          "function": "seo-tool-account-course-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/pick-templates",
-          "function": "seo-tool-account-course-pickTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/reports",
-          "function": "seo-tool-account-course-reports"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/students",
-          "function": "seo-tool-account-course-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/teachers",
-          "function": "seo-tool-account-course-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/course/use-template",
-          "function": "seo-tool-account-course-useTemplate"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/courses",
@@ -1255,71 +1255,71 @@
         },
         {
           "source": "/en/*/members",
-          "function": "seo-tool-account-members"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/my-account",
-          "function": "seo-tool-account-myAccount"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/notification",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/notifications",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template",
-          "function": "seo-tool-account-programTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template/create",
-          "function": "seo-tool-account-programTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template/created",
-          "function": "seo-tool-account-programTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-template/edit",
-          "function": "seo-tool-account-programTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program-templates",
-          "function": "seo-tool-account-programTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/program/create",
-          "function": "seo-tool-account-program-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/programs",
-          "function": "seo-tool-account-programs"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/room",
-          "function": "seo-tool-account-room"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/settings/edit",
-          "function": "seo-tool-account-settings-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/student",
-          "function": "seo-tool-account-student"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/students",
-          "function": "seo-tool-account-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/teacher",
-          "function": "seo-tool-account-teacher"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/en/*/teachers",
-          "function": "seo-tool-account-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/files/mime-icons/*.png",
@@ -1351,63 +1351,63 @@
         },
         {
           "source": "/page-data/de/*/calendar/page-data.json",
-          "function": "seo-tool-account-calendarPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/create/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/created/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/edit/page-data.json",
-          "function": "seo-tool-account-courseTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-template/page-data.json",
-          "function": "seo-tool-account-courseTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course-templates/page-data.json",
-          "function": "seo-tool-account-courseTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/create/page-data.json",
-          "function": "seo-tool-account-course-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/created/page-data.json",
-          "function": "seo-tool-account-course-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/edit/page-data.json",
-          "function": "seo-tool-account-course-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/page-data.json",
-          "function": "seo-tool-account-course-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/pick-templates/page-data.json",
-          "function": "seo-tool-account-course-pickTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/reports/page-data.json",
-          "function": "seo-tool-account-course-reportsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/students/page-data.json",
-          "function": "seo-tool-account-course-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/teachers/page-data.json",
-          "function": "seo-tool-account-course-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/course/use-template/page-data.json",
-          "function": "seo-tool-account-course-useTemplatePageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/courses/page-data.json",
@@ -1415,19 +1415,19 @@
         },
         {
           "source": "/page-data/de/*/members/page-data.json",
-          "function": "seo-tool-account-membersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/my-account/page-data.json",
-          "function": "seo-tool-account-myAccountPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/notification/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/notifications/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/page-data.json",
@@ -1435,55 +1435,55 @@
         },
         {
           "source": "/page-data/de/*/program-template/create/page-data.json",
-          "function": "seo-tool-account-programTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/created/page-data.json",
-          "function": "seo-tool-account-programTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/edit/page-data.json",
-          "function": "seo-tool-account-programTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-template/page-data.json",
-          "function": "seo-tool-account-programTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program-templates/page-data.json",
-          "function": "seo-tool-account-programTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/program/create/page-data.json",
-          "function": "seo-tool-account-program-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/programs/page-data.json",
-          "function": "seo-tool-account-programsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/room/page-data.json",
-          "function": "seo-tool-account-roomPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/settings/edit/page-data.json",
-          "function": "seo-tool-account-settings-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/student/page-data.json",
-          "function": "seo-tool-account-studentPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/students/page-data.json",
-          "function": "seo-tool-account-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/teacher/page-data.json",
-          "function": "seo-tool-account-teacherPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/de/*/teachers/page-data.json",
-          "function": "seo-tool-account-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/courses/*/page-data.json",
@@ -1491,63 +1491,63 @@
         },
         {
           "source": "/page-data/en/*/calendar/page-data.json",
-          "function": "seo-tool-account-calendarPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/create/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/created/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/edit/page-data.json",
-          "function": "seo-tool-account-courseTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-template/page-data.json",
-          "function": "seo-tool-account-courseTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course-templates/page-data.json",
-          "function": "seo-tool-account-courseTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/create/page-data.json",
-          "function": "seo-tool-account-course-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/created/page-data.json",
-          "function": "seo-tool-account-course-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/edit/page-data.json",
-          "function": "seo-tool-account-course-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/page-data.json",
-          "function": "seo-tool-account-course-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/pick-templates/page-data.json",
-          "function": "seo-tool-account-course-pickTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/reports/page-data.json",
-          "function": "seo-tool-account-course-reportsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/students/page-data.json",
-          "function": "seo-tool-account-course-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/teachers/page-data.json",
-          "function": "seo-tool-account-course-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/course/use-template/page-data.json",
-          "function": "seo-tool-account-course-useTemplatePageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/courses/page-data.json",
@@ -1555,19 +1555,19 @@
         },
         {
           "source": "/page-data/en/*/members/page-data.json",
-          "function": "seo-tool-account-membersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/my-account/page-data.json",
-          "function": "seo-tool-account-myAccountPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/notification/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/notifications/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/page-data.json",
@@ -1575,115 +1575,115 @@
         },
         {
           "source": "/page-data/en/*/program-template/create/page-data.json",
-          "function": "seo-tool-account-programTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/created/page-data.json",
-          "function": "seo-tool-account-programTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/edit/page-data.json",
-          "function": "seo-tool-account-programTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-template/page-data.json",
-          "function": "seo-tool-account-programTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program-templates/page-data.json",
-          "function": "seo-tool-account-programTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/program/create/page-data.json",
-          "function": "seo-tool-account-program-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/programs/page-data.json",
-          "function": "seo-tool-account-programsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/room/page-data.json",
-          "function": "seo-tool-account-roomPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/settings/edit/page-data.json",
-          "function": "seo-tool-account-settings-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/student/page-data.json",
-          "function": "seo-tool-account-studentPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/students/page-data.json",
-          "function": "seo-tool-account-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/teacher/page-data.json",
-          "function": "seo-tool-account-teacherPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/en/*/teachers/page-data.json",
-          "function": "seo-tool-account-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/calendar/page-data.json",
-          "function": "seo-tool-account-calendarPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/create/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/created/page-data.json",
-          "function": "seo-tool-account-courseTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/edit/page-data.json",
-          "function": "seo-tool-account-courseTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-template/page-data.json",
-          "function": "seo-tool-account-courseTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course-templates/page-data.json",
-          "function": "seo-tool-account-courseTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/create/page-data.json",
-          "function": "seo-tool-account-course-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/created/page-data.json",
-          "function": "seo-tool-account-course-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/edit/page-data.json",
-          "function": "seo-tool-account-course-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/page-data.json",
-          "function": "seo-tool-account-course-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/pick-templates/page-data.json",
-          "function": "seo-tool-account-course-pickTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/reports/page-data.json",
-          "function": "seo-tool-account-course-reportsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/students/page-data.json",
-          "function": "seo-tool-account-course-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/teachers/page-data.json",
-          "function": "seo-tool-account-course-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/course/use-template/page-data.json",
-          "function": "seo-tool-account-course-useTemplatePageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/courses/page-data.json",
@@ -1691,19 +1691,19 @@
         },
         {
           "source": "/page-data/*/members/page-data.json",
-          "function": "seo-tool-account-membersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/my-account/page-data.json",
-          "function": "seo-tool-account-myAccountPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/notification/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/notifications/page-data.json",
-          "function": "seo-tool-account-notificationsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/page-data.json",
@@ -1711,55 +1711,55 @@
         },
         {
           "source": "/page-data/*/program-template/create/page-data.json",
-          "function": "seo-tool-account-programTemplate-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/created/page-data.json",
-          "function": "seo-tool-account-programTemplate-createdPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/edit/page-data.json",
-          "function": "seo-tool-account-programTemplate-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-template/page-data.json",
-          "function": "seo-tool-account-programTemplate-detailPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program-templates/page-data.json",
-          "function": "seo-tool-account-programTemplatesPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/program/create/page-data.json",
-          "function": "seo-tool-account-program-createPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/programs/page-data.json",
-          "function": "seo-tool-account-programsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/room/page-data.json",
-          "function": "seo-tool-account-roomPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/settings/edit/page-data.json",
-          "function": "seo-tool-account-settings-editPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/student/page-data.json",
-          "function": "seo-tool-account-studentPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/students/page-data.json",
-          "function": "seo-tool-account-studentsPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/teacher/page-data.json",
-          "function": "seo-tool-account-teacherPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/page-data/*/teachers/page-data.json",
-          "function": "seo-tool-account-teachersPageData"
+          "function": "seo-tool-account-renderPageData"
         },
         {
           "source": "/*",
@@ -1767,63 +1767,63 @@
         },
         {
           "source": "/*/calendar",
-          "function": "seo-tool-account-calendar"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course",
-          "function": "seo-tool-account-course-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template",
-          "function": "seo-tool-account-courseTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template/create",
-          "function": "seo-tool-account-courseTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template/created",
-          "function": "seo-tool-account-courseTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-template/edit",
-          "function": "seo-tool-account-courseTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course-templates",
-          "function": "seo-tool-account-courseTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/create",
-          "function": "seo-tool-account-course-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/created",
-          "function": "seo-tool-account-course-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/edit",
-          "function": "seo-tool-account-course-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/pick-templates",
-          "function": "seo-tool-account-course-pickTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/reports",
-          "function": "seo-tool-account-course-reports"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/students",
-          "function": "seo-tool-account-course-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/teachers",
-          "function": "seo-tool-account-course-teachers"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/course/use-template",
-          "function": "seo-tool-account-course-useTemplate"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/courses",
@@ -1831,71 +1831,71 @@
         },
         {
           "source": "/*/members",
-          "function": "seo-tool-account-members"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/my-account",
-          "function": "seo-tool-account-myAccount"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/notification",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/notifications",
-          "function": "seo-tool-account-notifications"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template",
-          "function": "seo-tool-account-programTemplate-detail"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template/create",
-          "function": "seo-tool-account-programTemplate-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template/created",
-          "function": "seo-tool-account-programTemplate-created"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-template/edit",
-          "function": "seo-tool-account-programTemplate-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program-templates",
-          "function": "seo-tool-account-programTemplates"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/program/create",
-          "function": "seo-tool-account-program-create"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/programs",
-          "function": "seo-tool-account-programs"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/room",
-          "function": "seo-tool-account-room"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/settings/edit",
-          "function": "seo-tool-account-settings-edit"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/student",
-          "function": "seo-tool-account-student"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/students",
-          "function": "seo-tool-account-students"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/teacher",
-          "function": "seo-tool-account-teacher"
+          "function": "seo-tool-account-render"
         },
         {
           "source": "/*/teachers",
-          "function": "seo-tool-account-teachers"
+          "function": "seo-tool-account-render"
         }
       ],
       "headers": [

@@ -4,13 +4,13 @@
       "originPath": "/account/program-templates",
       "render": "renderAccountPage",
       "source": "/*/program-templates",
-      "function": "seo-tool-account-programTemplates"
+      "function": "seo-tool-account-render"
     },
     {
       "originPath": "/account/program-templates",
       "render": "renderAccountPageData",
       "source": "/page-data/*/program-templates/page-data.json",
-      "function": "seo-tool-account-programTemplatesPageData"
+      "function": "seo-tool-account-renderPageData"
     }
   ],
   "locales": ["en", "de"]

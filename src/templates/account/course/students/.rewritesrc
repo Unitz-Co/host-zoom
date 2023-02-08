@@ -4,13 +4,13 @@
       "originPath": "/account/course/students",
       "render": "renderAccountPage",
       "source": "/*/course/students",
-      "function": "seo-tool-account-course-students"
+      "function": "seo-tool-account-render"
     },
     {
       "originPath": "/account/course/students",
       "render": "renderAccountPageData",
       "source": "/page-data/*/course/students/page-data.json",
-      "function": "seo-tool-account-course-studentsPageData"
+      "function": "seo-tool-account-renderPageData"
     }
   ],
   "locales": ["en", "de"]
