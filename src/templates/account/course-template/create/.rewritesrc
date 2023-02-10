@@ -1,10 +1,14 @@
 {
   "rewrites": [
     {
+      "originPath": "/account/course-template/create",
+      "render": "renderAccountPage",
       "source": "/*/course-template/create",
       "function": "seo-tool-account-render"
     },
     {
+      "originPath": "/account/course-template/create",
+      "render": "renderAccountPageData",
       "source": "/page-data/*/course-template/create/page-data.json",
       "function": "seo-tool-account-renderPageData"
     }

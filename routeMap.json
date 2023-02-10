@@ -31,6 +31,70 @@
     "originPath": "/account/calendar",
     "render": "renderAccountPageData"
   },
+  "/:account/course-template/create": {
+    "originPath": "/account/course-template/create",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course-template/create": {
+    "originPath": "/account/course-template/create",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course-template/create/page-data.json": {
+    "originPath": "/account/course-template/create",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course-template/create/page-data.json": {
+    "originPath": "/account/course-template/create",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course-template/created": {
+    "originPath": "/account/course-template/created",
+    "render": "renderAccountPageData"
+  },
+  "/(en|de)/:account/course-template/created": {
+    "originPath": "/account/course-template/created",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/:account/course-template/created/page-data.json": {
+    "originPath": "/account/course-template/created",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course-template/created/page-data.json": {
+    "originPath": "/account/course-template/created",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course-template": {
+    "originPath": "/account/course-template",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course-template": {
+    "originPath": "/account/course-template",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course-template/page-data.json": {
+    "originPath": "/account/course-template",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course-template/page-data.json": {
+    "originPath": "/account/course-template",
+    "render": "renderAccountPageData"
+  },
+  "/:account/course-template/edit": {
+    "originPath": "/account/course-template/edit",
+    "render": "renderAccountPage"
+  },
+  "/(en|de)/:account/course-template/edit": {
+    "originPath": "/account/course-template/edit",
+    "render": "renderAccountPage"
+  },
+  "/page-data/:account/course-template/edit/page-data.json": {
+    "originPath": "/account/course-template/edit",
+    "render": "renderAccountPageData"
+  },
+  "/page-data/(en|de)/:account/course-template/edit/page-data.json": {
+    "originPath": "/account/course-template/edit",
+    "render": "renderAccountPageData"
+  },
   "/:account/course-templates": {
     "originPath": "/account/course-templates",
     "render": "renderAccountPage"
