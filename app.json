@@ -2,7 +2,7 @@
   "name": "@uz/host-zoom",
   "description": "Unitz zoom",
   "keywords": [
-    "gatsby"
+    "gatsby", "unitz", "unitz-tool"
   ],
   "repository": "https://github.com/Unitz-Co/host-zoom",
   "success_url": "/",
