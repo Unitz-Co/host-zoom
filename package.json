@@ -64,6 +64,7 @@
     "js-cookie": "^2.2.1",
     "jsrsasign": "^10.5.26",
     "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.40",
     "node-fetch": "^2.6.1",
     "node-sass": "^5.0.0",
     "opentok-react": "^0.11.0",
