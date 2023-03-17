@@ -12,6 +12,7 @@ import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import HomePage from '@uz/unitz-tool-pages/CourseTemplateEdit';
 import Navbar from '@uz/unitz-tool-components/Navbar';
 import PageData from '../../../../data/PageDataQuery';
+import i18n from 'i18n-js';
 
 const CourseTemplateEditIdx = withPageContext((props) => {
   return (
@@ -19,7 +20,9 @@ const CourseTemplateEditIdx = withPageContext((props) => {
       <Layout location={props.location} PageData={PageData}>
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'Homepage' })} />
-          <Layout.POS name="app-header"><Navbar /></Layout.POS>
+          <Layout.POS name="app-header">
+            <Navbar helperUrl={`https://unitz.biz/${i18n.locale}/guides#course?referral=edit_course_templates`} />
+          </Layout.POS>
           <Layout.POS name="app-body">
             <HomePage />
           </Layout.POS>

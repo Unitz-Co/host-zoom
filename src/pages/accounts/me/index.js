@@ -12,6 +12,7 @@ import withPageContext from '@uz/unitz-tool-pages/withPageContext';
 import HomePage from '@uz/unitz-tool-pages/Dashboard';
 import Navbar from '@uz/unitz-tool-components/Navbar';
 import PageData from '../../../data/PageDataQuery';
+import i18n from 'i18n-js';
 
 const HomePageIdx = withPageContext((props) => {
   return (
@@ -20,7 +21,7 @@ const HomePageIdx = withPageContext((props) => {
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'Homepage' })} />
           <Layout.POS name="app-header">
-            <Navbar />
+            <Navbar helperUrl={`https://unitz.biz/${i18n.locale}/guides?referral=home`} />
           </Layout.POS>
           <Layout.POS name="app-body">
             <HomePage />

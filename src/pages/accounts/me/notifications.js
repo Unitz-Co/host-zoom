@@ -20,7 +20,7 @@ const HomePageIdx = withPageContext((props) => {
         <DIV>
           <SEO pageData={ctx.apply('ctf.findPage', { name: 'Homepage' })} />
           <Layout.POS name="app-header">
-            <Navbar />
+            <Navbar helperUrl={`https://unitz.biz/${i18n.locale}/guides#notification?referral=notifications`} />
           </Layout.POS>
           <Layout.POS name="app-body">
             <HomePage />
